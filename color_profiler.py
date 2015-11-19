@@ -35,5 +35,7 @@ class ColorProfiler(object):
 		return retMin, retMax
 
 	def draw_color_windows(self, image):
+		#colorFlag = np.zeros(centers.shape[0])
+		#imhsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
 		for c in self.centers:
 			cv2.rectangle(image, tuple(np.subtract(c,np.array([(self.windowSize-1)/2,(self.windowSize-1)/2]))), tuple(np.add(c,np.array([(self.windowSize-1)/2,(self.windowSize-1)/2]))), [0,0,255])

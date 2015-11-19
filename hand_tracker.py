@@ -24,9 +24,9 @@ class HandTracker(object):
 		median = cv2.medianBlur(closing, self.kernelSize)
 		return median
 
-	def get_contour(self, imhsv):
-		binaryIm = self.get_binary_image(imhsv)
-		im2, contours, hierarchy = cv2.findContours(binaryIm,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+	def get_contour(self, binaryIm):
+		#binaryIm = self.get_binary_image(imhsv)
+		contours, hierarchy = cv2.findContours(binaryIm,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 		maxArea = 0
 		ci = -1
 		for i,c in enumerate(contours):
@@ -62,9 +62,9 @@ class HandTracker(object):
 		else:
 			return None, None, None, None
 
-	def initialize_contour(self, imhsv):
-		binaryIm = self.get_binary_image(imhsv)
-		im2, contours, hierarchy = cv2.findContours(binaryIm,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
+	def initialize_contour(self, binaryIm):
+		#binaryIm = self.get_binary_image(imhsv)
+		contours, hierarchy = cv2.findContours(binaryIm,cv2.RETR_TREE,cv2.CHAIN_APPROX_SIMPLE)
 		maxArea = 0
 		ci = -1
 		for i,c in enumerate(contours):
@@ -105,15 +105,15 @@ class HandTracker(object):
 		cropIm = image[y:y+h,x:x+w]
 		return cropIm
 
-	def draw_on_image(self, image, cnt=True, hull=True, centroid=True, defects=True):
+	def draw_on_image(self, image, cnt=True, hull=True, centroid=True, defects=True, cntColor=(0,255,0), hullColor=(255,0,0)):
 		if cnt is True:
-			cv2.drawContours(image, [self.prevCnt], 0, (0,255,0), 3)
+			cv2.drawContours(image, [self.prevCnt], 0, cntColor, 3)
 		elif cnt is not False:
-			cv2.drawContours(image, [cnt], 0, (0,255,0), 3)
+			cv2.drawContours(image, [cnt], 0, cntColor, 3)
 		if hull is True:
-			cv2.drawContours(image, [self.prevHull], 0, (255,0,0), 3)
+			cv2.drawContours(image, [self.prevHull], 0, hullColor, 3)
 		elif hull is not False:
-			cv2.drawContours(image, [hull], 0, (255,0,0), 3)
+			cv2.drawContours(image, [hull], 0, hullColor, 3)
 		if centroid is True:
 			cv2.circle(image,tuple(self.prevCentroid),5,[0,0,255],-1)
 		elif centroid is not False:
