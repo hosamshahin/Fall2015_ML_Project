@@ -1,4 +1,4 @@
-import sys
+import sys, traceback
 import cv2
 import numpy as np
 from color_profiler import ColorProfiler
@@ -179,3 +179,5 @@ if __name__ == "__main__":
 
     except:
         vc.release()
+        traceback.print_exc(file=sys.stdout)
+        
