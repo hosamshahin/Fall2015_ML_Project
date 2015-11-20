@@ -36,11 +36,6 @@ if __name__ == "__main__":
         rseed = opts.seed
     trainDirName = "Train_{0}".format(rseed)
     trainDirPath = os.path.join(os.path.dirname(os.path.abspath(__file__)), "TrainData", trainDirName)
-    if not os.path.exists(trainDirPath):
-        os.makedirs(trainDirPath)
-        if opts.notrain or opts.nocollect:
-            print "Training data not already present for seed={0}".format(rseed)
-            exit(0)
     classifierFile = os.path.join(trainDirPath, 'classifier.pkl')
 
     vc = cv2.VideoCapture(0)
@@ -50,10 +45,18 @@ if __name__ == "__main__":
         if not opts.notrain:
             score = recognizer.train_from_video()   
             print "Training score = {0}".format(score)
+            if not os.path.exists(trainDirPath):
+                os.makedirs(trainDirPath)
+                #if opts.notrain or opts.nocollect:
+                #    print "Training data not already present for seed={0}".format(rseed)
+                #    exit(0)
             with open(classifierFile, 'wb') as output:
                 clf = recognizer.trainer.classifier
                 pickle.dump(clf, output, pickle.HIGHEST_PROTOCOL)
         elif not opts.notest:
+            if not os.path.exists(classifierFile):
+                print "Trained classifier not present for seed={0}".format(rseed)
+                exit(0)
             with open(classifierFile, 'rb') as input:
                 clf = pickle.load(input)
 
