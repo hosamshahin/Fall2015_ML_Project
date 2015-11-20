@@ -51,8 +51,8 @@ class Tester(object):
             imCopy = 1*im
             if cnt is not None:
                 numDefects = defects.shape[0]
-                cropImage = self.handTracker.get_cropped_image(im, cnt)
-                cropImageGray = self.handTracker.get_cropped_image(imgray, cnt)
+                cropImage,cropPoints = self.handTracker.get_cropped_image_from_cnt(im, cnt, 0.05)
+                cropImageGray = self.handTracker.get_cropped_image_from_points(imgray, cropPoints)
                 kp,des = self.featureExtractor.get_keypoints_and_descriptors(cropImageGray)
                 if des is not None and des.shape[0] >= 0:
                     self.featureExtractor.draw_keypoints(cropImage, kp)

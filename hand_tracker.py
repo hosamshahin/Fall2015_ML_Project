@@ -119,16 +119,27 @@ class HandTracker(object):
         else:
             return None, None, None, None
 
-    def get_cropped_image(self, image, cnt):
+    def get_cropped_image_from_points(self, image, pointList):
+        x = pointList[0]
+        y = pointList[1]
+        w = pointList[2]
+        h = pointList[3]
+        cropIm = image[y:y+h,x:x+w]
+        return cropIm
+
+    def get_cropped_image_from_cnt(self, image, cnt, boost=0):
         x,y,w,h = cv2.boundingRect(cnt)
         x,y,w,h = self.apply_kalman_filter(x, y, w, h)
-        #cv2.rectangle(im,(x,y),(x+w,y+h),(0,0,255),2)
+        x = x - boost*w
+        y = y - boost*h
+        w = (1+2*boost)*w
+        h = (1+2*boost)*h
         x = min(max(0,x),image.shape[1]-1)
         y = min(max(0,y),image.shape[0]-1)
         w = min(max(1,w),image.shape[1])
         h = min(max(1,h),image.shape[0])
         cropIm = image[y:y+h,x:x+w]
-        return cropIm
+        return cropIm,[x,y,w,h]
 
     def apply_kalman_filter(self, x, y, w, h):
         X = self.xKalmanFilter.kf_run_iter(x)

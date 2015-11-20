@@ -56,8 +56,8 @@ class Trainer(object):
             cnt,hull,centroid,defects = self.handTracker.get_contour(binaryIm)
             imCopy = 1*im
             if cnt is not None:
-                cropImage = self.handTracker.get_cropped_image(im, cnt)
-                cropImageGray = self.handTracker.get_cropped_image(imgray, cnt)
+                cropImage,cropPoints = self.handTracker.get_cropped_image_from_cnt(im, cnt, 0.05)
+                cropImageGray = self.handTracker.get_cropped_image_from_points(imgray, cropPoints)
                 kp,des = self.featureExtractor.get_keypoints_and_descriptors(cropImageGray)
                 if des is not None and des.shape[0] >= 0:
                     self.featureExtractor.draw_keypoints(cropImage, kp)
