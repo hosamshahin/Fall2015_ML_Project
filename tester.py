@@ -76,7 +76,7 @@ class Tester(object):
             #self.insert_to_prediction_list(prediction)
             #prediction,predictionCount = self.most_common(self.predictionList)
             #if prediction>=0:
-            if prediction>=0 and numDefects==self.classifier.medianDefects[prediction]:
+            if prediction>0 and numDefects>=max(0,self.classifier.medianDefects[prediction-1]-1) and numDefects<=self.classifier.medianDefects[prediction-1]+1:
                 #print modePrediction, predictionList
                 print prediction
             cv2.imshow(self.binaryWindowName, binaryIm)
@@ -102,7 +102,7 @@ class Tester(object):
         return e,lst.count(e)
 
     def is_hand(self, defects):
-        if defects.shape[0] > 4:
+        if defects.shape[0] > 5:
             return False
         else:
             return True

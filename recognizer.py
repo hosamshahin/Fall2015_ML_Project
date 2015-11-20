@@ -3,7 +3,7 @@ from trainer import Trainer
 from tester import Tester
 
 class Recognizer(object):
-    def __init__(self, vc, descriptor, opts):
+    def __init__(self, vc, opts):
         self.vc = vc
         ret,im = vc.read()
         self.imHeight,self.imWidth,self.channels = im.shape
@@ -12,6 +12,13 @@ class Recognizer(object):
 
     def train_from_video(self):
         self.trainer.extract_descriptors_from_video()
+        variance = self.trainer.kmeans(30)
+        self.trainer.bow()
+        score = self.trainer.linear_svm()
+        return score
+
+    def train_from_descriptors(self, desList):
+        self.trainer.desList = desList
         variance = self.trainer.kmeans(30)
         self.trainer.bow()
         score = self.trainer.linear_svm()

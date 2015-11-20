@@ -24,6 +24,7 @@ class Trainer(object):
         self.handTracker = HandTracker(kernelSize=7, thresholdAngle=0.4, defectDistFromHull=30, parent=self)
         self.featureExtractor = FeatureExtractor(type=descType, parent=self)
         self.numDefects = np.zeros((self.numGestures,self.numFramesPerGesture), "uint8")
+        self.firstFrameList = []
 
     def extract_descriptors_from_video(self):
         vc = self.parent.vc
@@ -62,6 +63,8 @@ class Trainer(object):
                 if des is not None and des.shape[0] >= 0:
                     self.featureExtractor.draw_keypoints(cropImage, kp)
                 if captureFlag:
+                    if frameNum == 0:
+                        self.firstFrameList.append(im)
                     if des is not None and des.shape[0] >= self.minDescriptorsPerFrame and self.is_hand(defects):
                         self.desList.append(des)
                         self.handTracker.draw_on_image(imCopy, cnt=False, hullColor=(0,255,0))
@@ -94,6 +97,7 @@ class Trainer(object):
         cv2.destroyAllWindows()
 
     def kmeans(self, numIters):
+        print "Running k-means clustering with {0} iterations...".format(numIters)
         descriptors = self.desList[0]
         for des in self.desList:
             descriptors = np.vstack((descriptors, des))
@@ -103,15 +107,16 @@ class Trainer(object):
         return variance
 
     def bow(self):
+        print "Extracting bag-of-words features..."
         for gestureID in range(self.numGestures):
             for numFrame in range(self.numFramesPerGesture):
                 words, distance = vq(self.desList[gestureID*self.numFramesPerGesture+numFrame], self.voc)
                 for w in words:
                     self.trainData[gestureID*self.numFramesPerGesture+numFrame][w] += 1
                 self.trainLabels[gestureID*self.numFramesPerGesture+numFrame] = gestureID+1
-        print "Training data extracted!"
 
     def linear_svm(self):
+        print "Training linear SVM classifier..."
         lin_clf = svm.LinearSVC()
         valScore = self.leave_one_out_validate(lin_clf)
         lin_clf.fit(self.trainData, self.trainLabels)
