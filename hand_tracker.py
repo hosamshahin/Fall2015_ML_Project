@@ -126,7 +126,7 @@ class HandTracker(object):
         x = min(max(0,x),image.shape[1]-1)
         y = min(max(0,y),image.shape[0]-1)
         w = min(max(1,w),image.shape[1])
-        h = min(max(1,w),image.shape[0])
+        h = min(max(1,h),image.shape[0])
         cropIm = image[y:y+h,x:x+w]
         return cropIm
 

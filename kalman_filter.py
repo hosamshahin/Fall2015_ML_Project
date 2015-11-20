@@ -1,13 +1,10 @@
 import numpy as np
-from numpy import dot 
-from numpy import dot, sum, tile, linalg
-from numpy.linalg import inv
 
 class KalmanFilter(object):
     def __init__(self, X):
         self.A = np.array([[1,1],[0,1]])
         self.P = np.diag((0.01, 0.01))
-        self.Q = 0.1 * np.eye(X.shape[0])  
+        self.Q = 0.01 * np.eye(X.shape[0])  
         self.H = np.array([[1, 0]]) 
         self.R = np.eye(self.H.shape[0])
         self.X = X
