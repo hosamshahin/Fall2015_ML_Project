@@ -29,6 +29,6 @@ data/
 # proportion of contributors will probably not be using SublimeText
 # *.sublime-project
 
-logs/.ipynb_checkpoints
+logs/*
 results
 tasks.todo
