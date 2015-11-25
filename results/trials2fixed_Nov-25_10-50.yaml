@@ -1,0 +1,1215 @@
+- data_params: null
+  model_params:
+    params: {max_depth: 3, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.03333333333333333
+- data_params: null
+  model_params:
+    params: {max_depth: 18, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.03333333333333333
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 4, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: pca}
+  result: 0.20074999999999993
+- data_params: null
+  model_params:
+    params: {max_depth: 2, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.2
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 5, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: pca}
+  result: 0.0815
+- data_params: null
+  model_params:
+    params: {max_depth: 19, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.1
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        lEckgecApD8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [25, 27]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 11, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: normalize}
+  result: 0.10741666666666666
+- data_params: null
+  model_params:
+    params:
+      algorithm: sgd
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        2nVdomS1SEA=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [26, 15]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: pca}
+  result: 5.666666666666667
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 11, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: normalize}
+  result: 0.12383333333333331
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 13, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: standard}
+  result: 0.07329166666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        bhECO+Dckj8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [26, 27]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: pca}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        lEckgecApD8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [27, 8]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.13333333333333333
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "D\x16v\x11UP3?"
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [25, 8]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 14, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 18, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.1
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        U7U+ajX/kT8=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        MTJmtXQkrT4=
+      kernel: rbf
+    type: svm
+  pre_params: {type: normalize}
+  result: 2.35
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        euPUjkKHLkA=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Om1P0RUBMD8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params: {max_depth: 8, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 14, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: standard}
+  result: 0.08933333333333333
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "D\x16v\x11UP3?"
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [25, 23]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        zfCsUVC3VEA=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        zfCsUVC3VEA=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        hEFB07QIZz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [24, 12]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Be3SWFjh/kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Be3SWFjh/kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        3ytzNXnLqz8=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        lEckgecApD8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 5.866666666666666
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        khKBRQqGKj8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [13, 10]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AbpNloB+BkA=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        x4SiKOHA1kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        jCQajNMCGT8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [13, 10]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        p0cz3HRwTEE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "|8zZC\x16c?"
+      kernel: rbf
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        ir2EqI3+b0A=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "|8zZC\x16c?"
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: sgd
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        8tMD6VL3QEA=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [13, 29]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: pca}
+  result: 1.2333333333333334
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        5THyN61MN0A=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [4, 9]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.05
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        p0cz3HRwTEE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "|8zZC\x16c?"
+      kernel: rbf
+    type: svm
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        ir2EqI3+b0A=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - "|8zZC\x16c?"
+      kernel: rbf
+    type: svm
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 8, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.05
+- data_params: null
+  model_params:
+    params: {max_depth: 8, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 1, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.8166666666666667
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 15, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: standard}
+  result: 0.07083333333333333
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        hEFB07QIZz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [24, 12]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        hEFB07QIZz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [24, 12]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 5, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 7, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: normalize}
+  result: 0.15033333333333332
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        YVJROsdeIUA=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        7GXMKdD25D8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 10, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.05
+- data_params: null
+  model_params:
+    params: {max_depth: 16, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params: {max_depth: 17, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AijlbqFM6T8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [7, 25]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params: {max_depth: 17, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 19, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: normalize}
+  result: 0.09383333333333335
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Be3SWFjh/kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        U1Ys2Tehnz8=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 6.716666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        vlENE3Pc0j8=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: sgd
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        khKBRQqGKj8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [8, 20]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 1.4666666666666666
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        khKBRQqGKj8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [3, 5]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 2.8333333333333335
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AbpNloB+BkA=
+      kernel: linear
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        rYfRlsJsuD8=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        x4SiKOHA1kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        7OhUdPBy20E=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 18, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: pca}
+  result: 0.09275000000000003
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        jCQajNMCGT8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [29, 13]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        mNLIPwz2ZUE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        eEyTRz4BUj4=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        xBGfL90iC0E=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        XWqoQuaUoD4=
+      kernel: rbf
+    type: svm
+  pre_params: {type: pca}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AAAAIF+gAkI=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AAAAAABAj0A=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 1.95
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        79rudAWZ+T8=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        ah5QmQWUsT8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 2.6166666666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: sgd
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        qi6o5u6hXz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [29, 13]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 4.966666666666667
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        jCQajNMCGT8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [6, 16]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        kaDy4Jc2tT8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [6, 10]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        adU7rIZ4mz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [15, 10]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 12, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: pca}
+  result: 0.13316666666666666
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        XPAApAhqMkE=
+      kernel: linear
+    type: svm
+  pre_params: {type: pca}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        AbpNloB+BkA=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        EYEAj+4lyz8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: pca}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        x4SiKOHA1kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 6, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: pca}
+  result: 0.16562500000000008
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        g+w7G7aK7j4=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [18, 19]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params: {max_depth: 12, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 11, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.03333333333333333
+- data_params: null
+  model_params:
+    params: {max_depth: 5, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.06666666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        UWeksHH0JEE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        eVSsnBJ5hT4=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 13, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 5, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: normalize}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Xd5jZL39WEE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        wRB18LvW+j4=
+      kernel: rbf
+    type: svm
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        sFcHxk7U+j8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [19, 3]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        DX6zAf39UUA=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [28, 17]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 2.05
+- data_params: null
+  model_params:
+    params:
+      algorithm: l-bfgs
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        hEFB07QIZz8=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [24, 12]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: standard}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 17, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 6, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    params: {max_depth: 6, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: pca}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 20, n_jobs: 1}
+    params: {max_depth: 8, max_features: auto, splitter: random}
+    type: decisionTree
+  pre_params: {type: standard}
+  result: 0.09983333333333334
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        YVJROsdeIUA=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        7GXMKdD25D8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 2.966666666666667
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        FHN/GGj1gEE=
+      gamma: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        7GXMKdD25D8=
+      kernel: rbf
+    type: svm
+  pre_params: {type: standard}
+  result: 6.533333333333333
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        mNLIPwz2ZUE=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Be3SWFjh/kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      C: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        Be3SWFjh/kA=
+      kernel: linear
+    type: svm
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    bag: {n_estimators: 10, n_jobs: 1}
+    params: {max_depth: 3, max_features: auto, splitter: best}
+    type: decisionTree
+  pre_params: {type: standard}
+  result: 0.28850000000000003
+- data_params: null
+  model_params:
+    params: {max_depth: 4, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.016666666666666666
+- data_params: null
+  model_params:
+    params: {max_depth: 15, max_features: auto}
+    type: RandomForestClassifier
+  pre_params: {type: standard}
+  result: 0.0
+- data_params: null
+  model_params:
+    params:
+      algorithm: adam
+      alpha: !!python/object/apply:numpy.core.multiarray.scalar
+      - !!python/object/apply:numpy.dtype
+        args: [f8, 0, 1]
+        state: !!python/tuple [3, <, null, null, null, -1, -1, 0]
+      - !!binary |
+        r6nut5bJa0A=
+      batch_size: 500
+      hidden_layer_sizes: !!python/tuple [16, 11]
+      random_state: 1
+    type: MLPClassifier
+  pre_params: {type: normalize}
+  result: 6.033333333333333

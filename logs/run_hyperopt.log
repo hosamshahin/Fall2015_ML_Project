@@ -1,0 +1,1526 @@
+11/25 10:50 - {run_hyperopt.py:20} - Start runner_auto
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.030575 seconds
+11/25 10:50 - {tpe.py:871} - TPE using 0 trials
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [0]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 3}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0333333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0333333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035706 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 1/1 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [1]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 18}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0333333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0333333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032567 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 2/2 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [2]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 4}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.20075
+11/25 10:50 - {train_predict.py:90} - score_train: 0.142017857143
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.20075
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033017 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 3/3 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [3]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 2}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.2
+11/25 10:50 - {train_predict.py:90} - score_train: 0.05
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.2
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033006 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 4/4 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [4]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 5}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0815
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0520714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0815
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032653 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 5/5 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [5]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 19}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.1
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.1
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034191 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 6/6 trials with best loss 0.033333
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [6]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.039069399370546126, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (25, 27)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032708 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 7/7 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [7]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 11}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.107416666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0180714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.107416666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033997 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 8/8 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [8]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 49.417133613238278, 'random_state': 1, 'algorithm': 'sgd', 'batch_size': 500, 'hidden_layer_sizes': (26, 15)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 5.66666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 5.42142857143
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 5.66666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.079703 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 9/9 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [9]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 11}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.123833333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0192857142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.123833333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.039340 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 10/10 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [10]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 13}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0732916666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0146607142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0732916666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035329 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 11/11 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [11]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.018420699693267144, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (26, 27)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033095 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 12/12 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [12]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.039069399370546126, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (27, 8)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.133333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.133333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034379 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 13/13 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [13]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.00029470517025518097, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (25, 8)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033097 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 14/14 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [14]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 14}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035577 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 15/15 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [15]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 18}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.1
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.1
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032652 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 16/16 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [16]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 0.017575106248547922, 'gamma': 8.685113737513521e-07}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 2.35
+11/25 10:50 - {train_predict.py:90} - score_train: 1.85
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 2.35
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034806 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 17/17 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [17]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 15.264179671752334, 'gamma': 0.000244205309454865}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.071506 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 18/18 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [18]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 8}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034786 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 19/19 trials with best loss 0.000000
+11/25 10:50 - {rand.py:15} - generating trials for new_ids: [19]
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 14}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0893333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0341428571429
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0893333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035676 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 20/20 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.00029470517025518097, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (25, 23)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033600 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 21/21 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 82.864277285468418}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034577 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 22/22 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 82.864277285468418}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036436 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 23/23 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.002811768697974228, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (24, 12)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034866 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 24/24 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 126485.52168552957}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035774 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 25/25 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 126485.52168552957}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035379 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 26/26 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 0.054286754393238594, 'gamma': 0.039069399370546126}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 5.86666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 6.05714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 5.86666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.077497 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 27/27 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.00020235896477251554, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (13, 10)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034146 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 28/28 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 2.8117686979742307}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033175 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 29/29 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 23299.518105153718}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032918 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 30/30 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 9.5409547634999435e-05, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (13, 10)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036060 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 31/31 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 3727593.7203149381, 'gamma': 0.0023299518105153721}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.037816 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 32/32 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 255.95479226995332, 'gamma': 0.0023299518105153721}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.038383 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 33/33 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 33.932217718953225, 'random_state': 1, 'algorithm': 'sgd', 'batch_size': 500, 'hidden_layer_sizes': (13, 29)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 1.23333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.935714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 1.23333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.037561 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 34/34 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 23.29951810515367, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (4, 9)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.05
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0642857142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.05
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.037775 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 35/35 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 3727593.7203149381, 'gamma': 0.0023299518105153721}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.062531 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 36/36 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 255.95479226995332, 'gamma': 0.0023299518105153721}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032273 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 37/37 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 8}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.05
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.05
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034712 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 38/38 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 8}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033692 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 39/39 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 1}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.816666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.685714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.816666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033575 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 40/40 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 15}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0708333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0184107142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0708333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033636 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 41/41 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.002811768697974228, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (24, 12)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035057 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 42/42 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.002811768697974228, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (24, 12)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033880 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 43/43 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 5}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.062565 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 44/44 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 7}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.150333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0497857142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.150333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034672 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 45/45 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 8.6851137375135199, 'gamma': 0.65512855685954952}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034520 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 46/46 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 10}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.05
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.05
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033846 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 47/47 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 16}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032847 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 48/48 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 17}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032644 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 49/49 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.7906043210907685, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (7, 25)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033730 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 50/50 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 17}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033241 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 51/51 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 19}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0938333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0216428571429
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0938333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.062380 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 52/52 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 126485.52168552957}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033016 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 53/53 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 0.030888435964774818}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 6.71666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 4.75
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 6.71666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033407 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 54/54 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 0.29470517025518095}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032756 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 55/55 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.00020235896477251554, 'random_state': 1, 'algorithm': 'sgd', 'batch_size': 500, 'hidden_layer_sizes': (8, 20)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 1.46666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 1.11428571429
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 1.46666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033947 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 56/56 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.00020235896477251554, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (3, 5)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 2.83333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 2.78571428571
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 2.83333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032551 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 57/57 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 2.8117686979742307}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032959 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 58/58 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 0.095409547634999384}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033683 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 59/59 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 23299.518105153718}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036904 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 60/60 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 1842069969.3267164}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.064766 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 61/61 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 18}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.09275
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0260714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.09275
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034100 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 62/62 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 9.5409547634999435e-05, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (29, 13)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032919 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 63/63 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 11513953.993264481, 'gamma': 1.67683293681101e-08}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034316 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 64/64 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 222299.64825261955, 'gamma': 4.941713361323838e-07}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033123 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 65/65 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 10000000000.0, 'gamma': 1000.0}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 1.95
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 1.95
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032795 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 66/66 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 1.5998587196060574, 'gamma': 0.068664884500429985}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 2.61666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 2.61666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033017 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 67/67 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.0019306977288832496, 'random_state': 1, 'algorithm': 'sgd', 'batch_size': 500, 'hidden_layer_sizes': (29, 13)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 4.96666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 3.6
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 4.96666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034049 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 68/68 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 9.5409547634999435e-05, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (6, 16)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.039275 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 69/69 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.082864277285468427, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (6, 10)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.064486 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 70/70 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.026826957952797246, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (15, 10)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0285714285714
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034601 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 71/71 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 12}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.133166666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0306428571429
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.133166666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034032 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 72/72 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 1206792.6406393265}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034350 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 73/73 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 2.8117686979742307, 'gamma': 0.21209508879201924}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033974 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 74/74 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 23299.518105153718}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033891 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 75/75 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 6}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.165625
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0449642857143
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.165625
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.037289 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 76/76 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 1.4563484775012445e-05, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (18, 19)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035009 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 77/77 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 12}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033050 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 78/78 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 11}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0333333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0333333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033288 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 79/79 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 5}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0666666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0666666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033753 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 80/80 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 686648.84500429977, 'gamma': 1.5998587196060574e-07}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.038104 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 81/81 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 13}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035055 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 82/82 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 5}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033759 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 83/83 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 6551285.568595496, 'gamma': 2.5595479226995331e-05}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034504 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 84/84 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 1.6768329368110066, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (19, 3)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035311 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 85/85 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 71.96856730011514, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (28, 17)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 2.05
+11/25 10:50 - {train_predict.py:90} - score_train: 1.97857142857
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 2.05
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036620 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 86/86 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 0.002811768697974228, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (24, 12)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036392 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 87/87 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 17}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034741 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 88/88 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 6}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034566 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 89/89 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 6}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032797 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 90/90 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 20, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'random', 'max_depth': 8}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0998333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0250535714286
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0998333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032764 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 91/91 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 8.6851137375135199, 'gamma': 0.65512855685954952}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 2.96666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 2.96666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.032707 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 92/92 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'rbf', 'C': 35564803.062231213, 'gamma': 0.65512855685954952}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 6.53333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 6.53333333333
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.036626 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 93/93 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 11513953.993264481}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.035964 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 94/94 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 126485.52168552957}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034612 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 95/95 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'kernel': 'linear', 'C': 126485.52168552957}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.034679 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 96/96 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'bag': {'n_estimators': 10, 'n_jobs': 1}, 'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 3}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.2885
+11/25 10:50 - {train_predict.py:90} - score_train: 0.160642857143
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.2885
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033283 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 97/97 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 4}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0166666666667
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0214285714286
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0166666666667
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033017 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 98/98 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'max_features': 'auto', 'max_depth': 15}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 0.0
+11/25 10:50 - {train_predict.py:90} - score_train: 0.0
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 0.0
+11/25 10:50 - {tpe.py:840} - tpe_transform took 0.033625 seconds
+11/25 10:50 - {tpe.py:869} - TPE using 99/99 trials with best loss 0.000000
+11/25 10:50 - {train_predict.py:49} - Running new experiment
+========================
+
+11/25 10:50 - {train_predict.py:54} - {'model_params': {'params': {'alpha': 222.29964825261911, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': (16, 11)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/25 10:50 - {train_predict.py:59} - y shape: (200,)
+11/25 10:50 - {train_predict.py:60} - x shape: (200, 100)
+11/25 10:50 - {train_predict.py:78} - fitting model started ....
+11/25 10:50 - {train_predict.py:80} - model fitting finished
+11/25 10:50 - {train_predict.py:89} - score_test: 6.03333333333
+11/25 10:50 - {train_predict.py:90} - score_train: 5.98571428571
+11/25 10:50 - {fmin.py:195} - job returned status: ok
+11/25 10:50 - {fmin.py:196} - job returned loss: 6.03333333333
+11/25 10:50 - {run_hyperopt.py:33} - ~~~~~~~~~~~~~~~~~ fmin Done ~~~~~~~~~~~~~~~~~
+11/25 10:50 - {run_hyperopt.py:34} - Best Model:
+11/25 10:50 - {run_hyperopt.py:36} - {'model_params': {'params': {'alpha': 0.039069399370546126, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (25, 27)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+11/25 10:50 - {run_hyperopt.py:38} - Best loss is: 0.0
+11/25 10:50 - {run_hyperopt.py:44} - Objective Func values for all trials: 
+11/25 10:50 - {run_hyperopt.py:54} - 0.0333333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0333333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.20075
+11/25 10:50 - {run_hyperopt.py:54} - 0.2
+11/25 10:50 - {run_hyperopt.py:54} - 0.0815
+11/25 10:50 - {run_hyperopt.py:54} - 0.1
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.107416666667
+11/25 10:50 - {run_hyperopt.py:54} - 5.66666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.123833333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0732916666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.133333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.1
+11/25 10:50 - {run_hyperopt.py:54} - 2.35
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0893333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 5.86666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 1.23333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.05
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.05
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.816666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0708333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.150333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.05
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0938333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 6.71666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 1.46666666667
+11/25 10:50 - {run_hyperopt.py:54} - 2.83333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.09275
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 1.95
+11/25 10:50 - {run_hyperopt.py:54} - 2.61666666667
+11/25 10:50 - {run_hyperopt.py:54} - 4.96666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.133166666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.165625
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0333333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0666666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 2.05
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0998333333333
+11/25 10:50 - {run_hyperopt.py:54} - 2.96666666667
+11/25 10:50 - {run_hyperopt.py:54} - 6.53333333333
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 0.2885
+11/25 10:50 - {run_hyperopt.py:54} - 0.0166666666667
+11/25 10:50 - {run_hyperopt.py:54} - 0.0
+11/25 10:50 - {run_hyperopt.py:54} - 6.03333333333
