@@ -1,4 +1,34 @@
+# unzipped rowdata
+data/Drug_synergy_data/
+data/Sanger_molecular_data/
+# Pycharm specific
+.idea/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+code/logs/
+code/results/
+data/
+
+*.ipynb
+
+# All folders starting with dot except .gitignore
+.*/
+!/.gitignore
+
 *.npy
 *.pkl
 *.jpg
 *.pyc
+
+# workspace files are user-specific
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+logs/.ipynb_checkpoints
+results
+tasks.todo

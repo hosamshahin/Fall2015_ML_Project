@@ -1,0 +1,5 @@
+data:
+  path: '../data/'
+  training_data: '../data/train_data.npy'
+  training_labels: '../data/train_labels.npy'
+  processed: '../processed/'
