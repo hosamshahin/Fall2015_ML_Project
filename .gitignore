@@ -1,22 +1,9 @@
-# unzipped rowdata
-data/Drug_synergy_data/
-data/Sanger_molecular_data/
-# Pycharm specific
-.idea/
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-
-code/logs/
-code/results/
-data/
-
-*.ipynb
 
 # All folders starting with dot except .gitignore
 .*/
 !/.gitignore
 
+*.ipynb
 *.npy
 *.pkl
 *.jpg
@@ -30,5 +17,5 @@ data/
 # *.sublime-project
 
 logs/*
-results
+results/*
 tasks.todo
