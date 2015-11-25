@@ -1,12 +1,11 @@
 import numpy as np
 import yaml
 import os
-import logging
 
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Load config
 def get_config():
-    logging.info(os.getcwd())
+    print(os.getcwd())
     f = open('../config.yaml')
     config = yaml.safe_load(f)
     f.close()
@@ -24,9 +23,9 @@ def get_data(params):
     # y = np.random.randn(n_samples)
 
     X = np.load(config['data']['training_data'])
-    logging.info("X shape: %s", X.shape)
+    print("X shape: ", X.shape)
     y = np.load(config['data']['training_labels'])
     y = y.reshape(-1)
-    logging.info("y shape: %s", y.shape)
+    print("y shape: ", y.shape)
 
     return X, y

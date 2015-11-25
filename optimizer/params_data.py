@@ -1,4 +1,6 @@
 from hyperopt import hp
+
+
 d = {
         'p1': hp.choice('p1_op', [True, False]),
         'p2': hp.choice('p2_op', ['avg', 'sum'])

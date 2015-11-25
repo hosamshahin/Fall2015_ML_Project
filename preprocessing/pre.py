@@ -7,6 +7,7 @@ import numpy as np
 def get_processor( args):
 
     proc_type = args['type']
+    print (proc_type)
     # params = args['params']
     if proc_type =='standard': # 0 mean , 1 variance
         proc =  p.StandardScaler()
@@ -27,13 +28,14 @@ def get_processor( args):
     return proc
 
 def remove_outliers(y):
+    # print min(y), max(y), np.mean(y)
     m = np.mean(y)
     s = np.std(y)
-    logging.info( min(y), max(y), np.mean(y))
-    logging.info( 's', s)
+    print min(y), max(y), np.mean(y)
+    print 's', s
     y = y-m
     s = np.std(y)
     y[y>2*s] = 2*s
     y[y<-2*s] = -2*s
-    logging.info( min(y), max(y), np.mean(y))
+    print min(y), max(y), np.mean(y)
     return y

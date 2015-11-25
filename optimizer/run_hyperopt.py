@@ -9,6 +9,7 @@ from hyperopt import fmin, tpe, Trials
 from train_predict import run
 from matplotlib import pyplot as plt
 
+
 # setup logging
 logging.basicConfig(filename='../logs/run_hyperopt.log',
                     filemode='w',
@@ -19,6 +20,7 @@ logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 logging.info("Start runner_auto")
 
 
+# Test
 space = {'data_params': params_data.data_choices,
          'pre_params': params_data.prep_choices,
          'model_params': params_model.choices}
@@ -34,10 +36,6 @@ bestParams = hyperopt.space_eval(space, best)
 logging.info(bestParams)
 min = np.min(trials.results)
 logging.info("Best loss is: %s", min['loss'])
-
-print("Best Model:")
-print(bestParams)
-print("Best loss is: %s", min['loss'])
 
 # Save output
 timeStamp = '_{0:%b}-{0:%d}_{0:%H}-{0:%M}'.format(datetime.datetime.now())

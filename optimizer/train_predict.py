@@ -19,6 +19,9 @@ def visualize(data, scores, args, save_vis =False):
     plt.suptitle(traning_parameters, fontsize=11)
 
     x_range = np.arange(y_test.shape[0])
+    print(x_range)
+    print(y_test.dtype)
+
     plt.subplot(2, 1, 1)
     # plt.plot(y_test, 'b')
     # plt.plot(pred_test_value, 'r')
@@ -43,7 +46,7 @@ def visualize(data, scores, args, save_vis =False):
 
 
 def run(args, vis=False, save_vis=False):
-    logging.info("Running new experiment")
+    logging.info("Running new experiment\n========================\n")
 
     data_params = args['data_params']
     model_params = args['model_params']
@@ -69,7 +72,7 @@ def run(args, vis=False, save_vis=False):
         X_train = proc.transform(X_train)
         X_test = proc.transform(X_test)
     else:
-        logging.info('no preprocessing applied')
+        print('no preprocessing applied')
 
 
     logging.info('fitting model started ....')

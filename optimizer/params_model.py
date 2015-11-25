@@ -1,15 +1,13 @@
 from hyperopt import hp
 import numpy as np
-#---------------------- svm ---------------
+
+#---------------------- SVM -----------------------
 # http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # http://www.svms.org/parameters/
 # http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf
-
-
-
-#---------------------- SVM -----------------------
 C = hp.choice('svm_C',  np.logspace(-2, 10, 50))
 gamma =  hp.choice('svm_gamma',  np.logspace(-9, 3, 50))
+
 svm = {
         'type': 'svm',
         'params': hp.pchoice('p',
@@ -52,7 +50,7 @@ decisionTree = {
         'type': 'decisionTree',
         'params':{
             'max_depth': hp.choice('max_depth', range(1,20)),
-            'max_features': 'auto',
+            'max_features': 'auto', #hp.choice('max_features', [features_perct, 'log2', 'auto']),
             'splitter': hp.choice('splitter', ['best', 'random'])
         },
         'bag': {
@@ -62,14 +60,15 @@ decisionTree = {
         }
     }
 
-#-------------------RandomForestClassifier --------------------------
+#-------------------RandomForestRegressor --------------------------
+
 randomForestClassifier = {
-                'type': 'RandomForestClassifier',
-                'params':{
-                    'max_depth': hp.choice('max_depth2', range(1,20)),
-                    'max_features': 'auto'
-                }
-            }
+        'type': 'RandomForestClassifier',
+        'params':{
+            'max_depth': hp.choice('max_depth2', range(1,20)),
+            'max_features': 'auto', #hp.choice('max_features2', [features_perct, 'log2', 'auto']),
+        }
+}
 
 #-------------------Neural Networks --------------------------
 algorithm = hp.choice('MLP_algorithm', ['l-bfgs', 'sgd', 'adam'])
