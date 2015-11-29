@@ -5,19 +5,20 @@ import numpy as np
 # http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # http://www.svms.org/parameters/
 # http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf
-C = hp.choice('svm_C',  np.logspace(-2, 10, 50))
+C = hp.choice('svm_C',  np.logspace(-2, 3, 50))
 gamma =  hp.choice('svm_gamma',  np.logspace(-9, 3, 50))
+degree =  hp.choice('poly_degree', range(2,10))
 
 svm = {
         'type': 'svm',
-        'params': hp.pchoice('p',
-                            [ (0.2, {'C': C, 'kernel': 'linear', }),
-                              (0.8, {'C': C, 'kernel': 'rbf', 'gamma':gamma})]
+        'params': hp.pchoice('svm_model_choice',
+                            [ (0.2, {'C': C, 'kernel': 'linear', 'gamma':3, 'degree':1 }),
+                              (0.4, {'C': C, 'kernel': 'rbf', 'gamma':gamma, 'degree':1}),
+                              (0.4, {'C': C, 'kernel': 'poly', 'gamma':gamma, 'degree':degree})]
                              ),
     }
 
 #---------------------- ridge ---------------
-
 # alpha = hp.uniform('alpha', 0, 1)
 # ridge ={
 #         'type': 'ridge',
@@ -43,8 +44,8 @@ svm = {
 #      'params': {'alpha': lasso_alpha}
 #      }
 
-#-------------------decisionTree ----------------------------
 
+#-------------------decisionTree ----------------------------
 features_perct = hp.uniform('max_uniform', 0, 1)
 decisionTree = {
         'type': 'decisionTree',
@@ -61,7 +62,6 @@ decisionTree = {
     }
 
 #-------------------RandomForestRegressor --------------------------
-
 randomForestClassifier = {
         'type': 'RandomForestClassifier',
         'params':{
@@ -87,6 +87,7 @@ MLPClassifier = {
             }
 #---------------------- choose models ---------------
 
-m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
+# m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
+m=[svm]
 
 choices = hp.choice('model', m)
