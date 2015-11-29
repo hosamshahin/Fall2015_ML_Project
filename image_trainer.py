@@ -4,9 +4,10 @@ import numpy as np
 from feature_extractor import FeatureExtractor
 import fnmatch
 from scipy.cluster.vq import kmeans, vq
+from q_learning import QLearn
 
-numWords = 100
-featureExtractor = FeatureExtractor(type='orb')
+numWords = 10
+featureExtractor = FeatureExtractor(type='orb', parent= None)
 
 trainImageDir = os.path.join(os.curdir,"original_images")
 
@@ -25,6 +26,7 @@ for filename in os.listdir(trainImageDir):
 			imgray = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 			kp,des = featureExtractor.get_keypoints_and_descriptors(imgray)
 			desList.append(des)
+			
 
 descriptors = desList[0]
 for des in desList:
@@ -33,7 +35,6 @@ for des in desList:
 if descriptors.dtype != "float32":
 	descriptors = np.float32(descriptors)
 voc,variance = kmeans(descriptors, numWords, 30)
-
 sumNum = []
 for i in range(len(gestureIDlist)):
 	if i == 0:
@@ -52,6 +53,4 @@ for gestureID in range(len(gestureIDlist)):
 			trainData[sumNum[gestureID]+numFrame][w] += 1
 		trainLabels[sumNum[gestureID]+numFrame] = gestureID
 
-np.save("train_descriptors_orb.npy", np.array(descriptors))
-np.save("train_data_orb.npy", trainData)
-np.save("train_labels_orb.npy", trainLabels)
+
