@@ -2,10 +2,12 @@
 # All folders starting with dot except .gitignore
 .*/
 !/.gitignore
-
+/original_images
+/trainData
 *.ipynb
 *.pkl
 *.pyc
+
 
 # workspace files are user-specific
 *.sublime-workspace

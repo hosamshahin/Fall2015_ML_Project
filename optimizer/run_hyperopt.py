@@ -3,7 +3,7 @@ import params_data
 import params_model
 import numpy as np
 import logging, sys, datetime
-import yaml
+import yaml, json
 
 from hyperopt import fmin, tpe, Trials
 from train_predict import run
@@ -19,15 +19,14 @@ logging.basicConfig(filename='../logs/run_hyperopt.log',
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 logging.info("Start runner_auto")
 
-
-# Test
+# prepare hyperopt search space
 space = {'data_params': params_data.data_choices,
          'pre_params': params_data.prep_choices,
          'model_params': params_model.choices}
 
 trials = Trials()
 
-best = fmin(run, space, algo=tpe.suggest, max_evals=100, trials=trials)
+best = fmin(run, space, algo=tpe.suggest, max_evals=300, trials=trials)
 
 
 logging.info("~~~~~~~~~~~~~~~~~ fmin Done ~~~~~~~~~~~~~~~~~")
@@ -55,8 +54,11 @@ for trial in trials.trials:
 
 
 #~~~~ Writing Yaml data
-with open('../results/trials2fixed'+timeStamp+'.yaml', 'w') as f:
-     yaml.dump(tests, f)
+# with open('../results/hyperOpt_svm'+'.yaml', 'w') as f:
+     # yaml.dump(tests, f)
+#~~~~ Writing json data
+with open('../results/hyperOpt_svm'+'.json', 'w') as f:
+     json.dump(tests, f)
 
 # Reading data back
 # with open('../results/trials2fixed'+timeStamp+'.yaml', 'r') as f:

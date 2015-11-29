@@ -4,14 +4,25 @@ import math
 from color_profiler import ColorProfiler
 
 class HandTracker(object):
-    def __init__(self, kernelSize, thresholdAngle, defectDistFromHull, parent):
+    def __init__(self, kernelSize, thresholdAngle, defectDistFromHull, parent, frame=None):
         self.kernelSize = kernelSize
         self.kernel = np.ones((self.kernelSize,self.kernelSize),np.uint8)
         self.thresholdAngle = thresholdAngle
         self.defectDistFromHull = defectDistFromHull
-        self.parent = parent
-        self.imHeight = self.parent.parent.imHeight
-        self.imWidth = self.parent.parent.imWidth
+        self.parent = None
+        self.imHeight = 300
+        self.imWidth = 300
+        self.channels = None
+        print "before try"
+        try:
+            self.parent = parent
+            self.imHeight = self.parent.parent.imHeight
+            self.imWidth = self.parent.parent.imWidth
+        except:
+            self.parent = None
+            print 'hi3'
+            self.imHeight, self.imWidth, self.channels = frame.shape
+        
         centers = self.add_centers(None, 60, 120)
         centers = self.add_centers(centers, 30, 60)
         centers = self.add_centers(centers, 45, 90)
