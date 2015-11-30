@@ -1,5 +1,7 @@
 from hyperopt import hp
 import numpy as np
+from sklearn.metrics.pairwise import additive_chi2_kernel
+
 
 #---------------------- SVM -----------------------
 # http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
@@ -15,6 +17,7 @@ svm = {
                             [ (0.2, {'C': C, 'kernel': 'linear', 'gamma':3, 'degree':1 }),
                               (0.4, {'C': C, 'kernel': 'rbf', 'gamma':gamma, 'degree':1}),
                               (0.4, {'C': C, 'kernel': 'poly', 'gamma':gamma, 'degree':degree})]
+                              # (0.4, {'C': C, 'kernel': 'additive_chi2_kernel', 'gamma':gamma, 'degree':degree})]
                              ),
     }
 
@@ -76,6 +79,7 @@ alpha = hp.choice('MLP_alpha',  np.logspace(-5, 3, 50))
 hidden_layer_sizes = (hp.choice('MLP_depth1', range(3,30)), hp.choice('MLP_depth2', range(3,30)))
 random_state = 1
 batch_size = 500
+
 MLPClassifier = {
                 'type': 'MLPClassifier',
                 'params': { 'algorithm': algorithm,
@@ -87,7 +91,8 @@ MLPClassifier = {
             }
 #---------------------- choose models ---------------
 
-# m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
-m=[svm]
+m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
+# m=[svm]
+# m=[randomForestClassifier]
 
 choices = hp.choice('model', m)

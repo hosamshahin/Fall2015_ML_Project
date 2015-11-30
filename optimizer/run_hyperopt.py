@@ -57,7 +57,11 @@ for trial in trials.trials:
 # with open('../results/hyperOpt_svm'+'.yaml', 'w') as f:
      # yaml.dump(tests, f)
 #~~~~ Writing json data
-with open('../results/hyperOpt_svm'+'.json', 'w') as f:
+# with open('../results/hyperOpt_svm'+'.json', 'w') as f:
+#      json.dump(tests, f)
+# with open('../results/hyperOpt_DT'+'.json', 'w') as f:
+#      json.dump(tests, f)
+with open('../results/run_hyperOpt'+'.json', 'w') as f:
      json.dump(tests, f)
 
 # Reading data back

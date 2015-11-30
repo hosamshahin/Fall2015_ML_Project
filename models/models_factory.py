@@ -6,6 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import BaggingRegressor, RandomForestRegressor
 from sklearn.ensemble import BaggingClassifier, RandomForestClassifier
 from sklearn.neural_network import MLPClassifier
+from sklearn.metrics.pairwise import additive_chi2_kernel
 
 def get_model(params):
     model_type = params['type']
@@ -14,6 +15,9 @@ def get_model(params):
     print ('model paramters: ', p)
 
     if model_type =='svm':
+        if p['kernel'] == 'additive_chi2_kernel':
+            p['kernel'] = additive_chi2_kernel
+            #model =  SVC(max_iter=1000 , **p)
         model =  SVC(max_iter=1000 , **p)
 
     # elif model_type =='ridge':
