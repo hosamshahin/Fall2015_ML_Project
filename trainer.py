@@ -198,6 +198,8 @@ class Trainer(object):
                 self.trainData[i][w] += 1
         normTrainData = np.linalg.norm(self.trainData, ord=2, axis=1) * np.ones((self.numWords,1))
         self.trainData = np.divide(self.trainData, normTrainData.T)
+        np.save('10_gestures_256_words_data.npy', self.trainData)
+        np.save('10_gestures_256_words_labels.npy', self.trainLabels)
 
     def svm(self):
         print "Training SVM classifier with {0} kernel...".format(self.kernel)
