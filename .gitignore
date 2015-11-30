@@ -4,7 +4,7 @@
 !/.gitignore
 /original_images
 /trainData
-*.ipynb
+#*.ipynb
 *.pkl
 *.pyc
 
@@ -17,3 +17,6 @@
 # *.sublime-project
 
 tasks.todo
+
+
+/results/ALL_results_analysis.ipynb
