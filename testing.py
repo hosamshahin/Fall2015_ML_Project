@@ -12,6 +12,8 @@ import imutils
 from hand_tracker import HandTracker
 from sklearn.svm import SVC
 
+# http://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/rl_classification.pdf
+
 def get_new_directory(numGestures, descType):
     i = 0
     while(1):
@@ -175,8 +177,33 @@ def is_hand(defects):
     else:
         return True
 
+discount = 0.2
+h = 100
+a = 0.2
+testData = None
+states[]
+values[]
+
+def td-Update (t, i):
+    values[t][i] = values[t][i] + a*temporalDifference(t)
+
+def temporalDifference(t):
+    if t < h:
+        for i range(numWords):
+            return reward(t) + discount*V(t + 1, i) - V(t, i)
+    else:
+        for i range(numWords):
+            return reward(t) - V(t, i)
+
+def V(t, i):
+    class_probabilities = clf.predict_proba(states[t][0])
+    return class_probabilities[i]
+
+def reward(t):
+    return 1 -  ((len(states[t][1]) + len(states[t][2])) - (np.count_nonZero(states[t][1]) + np.count_nonZero(states[t][1])))/numWords
+
 def learningFrames(vc):
-    frameNum = 1
+    t = 0
     while(vc.isOpened()):
         ret,im = vc.read()
         im = cv2.flip(im, 1)
@@ -190,14 +217,14 @@ def learningFrames(vc):
             sys.exit(0)
     
     handTracker.colorProfiler.run()
-    print "1"
+
     ret, frame = vc.read()
     frame = cv2.flip(frame, 1)
     imhsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     binaryIM = handTracker.get_binary_image(imhsv)
-    print "2"
+
     cnt,hull,centroids, defects = handTracker.initialize_contour(binaryIM)
-    print "3"
+
 
     while True:
         key = cv2.waitKey(1) & 0xFF
@@ -209,13 +236,13 @@ def learningFrames(vc):
         imgray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
         binaryIm = handTracker.get_binary_image(imhsv)
         cnt,hull,centroids, defects = handTracker.get_contour(binaryIm)
-        print "4"
+
         frameCopy = 1*frame
         testData = None
         prediction = -1
         score = -1
         if cnt is not None:
-            print "5"
+
             numDefects = defects.shape[0]
             cropImage,cropPoints = handTracker.get_cropped_image_from_cnt(frame, cnt, 0.05)
             cropImageGray = handTracker.get_cropped_image_from_points(imgray, cropPoints)
@@ -237,17 +264,24 @@ def learningFrames(vc):
                     testData[w] += 1
                 normTestData = np.linalg.norm(testData, ord=2) * np.ones(numWords)
                 testData = np.divide(testData, normTestData)
+                states.append([testData, np.zeros(numWords), testData])
+
                 class_probabilities = clf.predict_proba(testData)
-                print frameNum
+                print t
                 print class_probabilities
+                if max(class_probabilities) > 0.3:
+                    
+                
                 cv2.imshow("frames", cropImage)
-                frameNum = frameNum + 1
+                t = t + 1
             else:
                 handTracker.draw_on_image(frameCopy, cnt=False, hullColor=(0,0,255))
         else:
             prediction = -1
 
         cv2.imshow('testing', frameCopy)
+
+
 
 def no_hand(vc):
     firstFrame = None
