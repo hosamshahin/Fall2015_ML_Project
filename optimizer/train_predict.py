@@ -2,11 +2,12 @@ import logging, sys, os
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from sklearn.cross_validation import train_test_split
-from sklearn.metrics import mean_squared_error
+from sklearn.metrics import mean_squared_error, hamming_loss
 from matplotlib import pyplot as plt
 from models.models_factory import get_model
 from dataLoader.data_factory import *
 from preprocessing import pre
+from sklearn.metrics.pairwise import additive_chi2_kernel
 
 
 def visualize(data, scores, args, save_vis =False):
@@ -82,8 +83,8 @@ def run(args, vis=False, save_vis=False):
     pred_test = model.predict(X_test)
     pred_train = model.predict(X_train)
 
-    score_train = mean_squared_error(y_train, pred_train)
-    score_test = mean_squared_error(y_test, pred_test)
+    score_train = hamming_loss(y_train, np.int32(pred_train))
+    score_test = hamming_loss(y_test, np.int32(pred_test))
 
 
     logging.info('score_test: %s', score_test)

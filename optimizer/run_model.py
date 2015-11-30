@@ -36,7 +36,7 @@ pre_params =    {
 # logging.info("Args: %s", args)
 
 # args = {'model_params': {'params': {'max_features': 'auto', 'max_depth': 16}, 'type': 'RandomForestClassifier'}, 'data_params': 'p2', 'pre_params': {'type': None}}
-args = {'model_params': {'params': {'kernel': 'rbf', 'C': 193069772.88832456, 'gamma': 0.000244205309454865}, 'type': 'svm'}, 'data_params': 'p2', 'pre_params': {'type': 'pca'}}
+args = {'model_params': {'params': {'alpha': 1.0000000000000001e-05, 'random_state': 1, 'algorithm': 'l-bfgs', 'batch_size': 500, 'hidden_layer_sizes': (16, 26)}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': 'pca'}}
 
 score = run(args, vis=True, save_vis=True)
 logging.info("Final Score: %s", score)
