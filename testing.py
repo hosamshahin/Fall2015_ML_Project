@@ -13,6 +13,7 @@ from hand_tracker import HandTracker
 from sklearn.svm import SVC
 
 # http://www.ai.rug.nl/~mwiering/GROUP/ARTICLES/rl_classification.pdf
+# https://users.cs.duke.edu/~parr/icml03.pdf
 
 def get_new_directory(numGestures, descType):
     i = 0
