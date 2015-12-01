@@ -61,7 +61,7 @@ for trial in trials.trials:
 #      json.dump(tests, f)
 # with open('../results/hyperOpt_DT'+'.json', 'w') as f:
 #      json.dump(tests, f)
-with open('../results/run_hyperOpt'+'.json', 'w') as f:
+with open('../results/run_hyperopt_5'+'.json', 'w') as f:
      json.dump(tests, f)
 
 # Reading data back

@@ -9,6 +9,6 @@ d = {
 data_choices = None
 
 prep_choices = {
-    # 'type': hp.choice('preprocessing',['standard','normalize','pca'])
-    'type': hp.choice('preprocessing',['standard','normalize']) #
+    'type': hp.choice('preprocessing',['standard','normalize','pca'])
+    # 'type': hp.choice('preprocessing',['standard','normalize']) #
 }
