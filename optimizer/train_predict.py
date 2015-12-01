@@ -1,4 +1,4 @@
-import logging, sys, os
+import logging, sys, os, pickle
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from sklearn.cross_validation import train_test_split
@@ -46,7 +46,7 @@ def visualize(data, scores, args, save_vis =False):
     # plt.close()
 
 
-def run(args, vis=False, save_vis=False):
+def run(args, vis=False, save_vis=False, save_model=False):
     logging.info("Running new experiment\n========================\n")
 
     data_params = args['data_params']
@@ -61,6 +61,11 @@ def run(args, vis=False, save_vis=False):
     logging.info('x shape: %s', X.shape)
     # get model
     model = get_model(model_params)
+
+    if save_model:
+        model_type = args['model_params']['type']
+        pickle.dump(model, open('../results/' + model_type + '.p', 'wb'))
+
 
     # split data
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5)

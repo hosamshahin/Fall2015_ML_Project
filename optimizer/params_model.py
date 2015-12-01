@@ -21,32 +21,6 @@ svm = {
                              ),
     }
 
-#---------------------- ridge ---------------
-# alpha = hp.uniform('alpha', 0, 1)
-# ridge ={
-#         'type': 'ridge',
-#         'params':{'alpha': alpha},
-#         'bag': {'n_estimators': hp.choice('n_estimators_ridge',[1, 5]), 'n_jobs': 1
-#                 }
-#     }
-#
-#
-# #---------------------- elastic ---------------
-# elastic_alpha = hp.uniform('elastic_alpha', 0, 1)
-# l1_ratio = hp.uniform('l1_ratio', 0, 1)
-# elastic = {
-#      'type': 'elastic',
-#      'params': {'l1_ratio': l1_ratio, 'alpha': elastic_alpha}
-#      }
-#
-# #---------------------- lasso ---------------
-#
-# lasso_alpha = hp.uniform('lasso_alpha', 0, 1)
-# lasso = {
-#      'type': 'lasso',
-#      'params': {'alpha': lasso_alpha}
-#      }
-
 
 #-------------------decisionTree ----------------------------
 features_perct = hp.uniform('max_uniform', 0, 1)
@@ -89,10 +63,9 @@ MLPClassifier = {
                             'batch_size':batch_size
                 }
             }
+
 #---------------------- choose models ---------------
 
 m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
-# m=[svm]
-# m=[randomForestClassifier]
 
 choices = hp.choice('model', m)

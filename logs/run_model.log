@@ -1,11 +1,11 @@
-11/29 10:59 - {train_predict.py:50} - Running new experiment
+11/30 07:48 - {train_predict.py:50} - Running new experiment
 ========================
 
-11/29 10:59 - {train_predict.py:55} - {'model_params': {'type': 'svm', 'params': {'kernel': 'poly', 'C': 75.43120063354623, 'gamma': 0.0013257113655901081, 'degree': 2}}, 'data_params': None, 'pre_params': {'type': 'standard'}}
-11/29 10:59 - {train_predict.py:60} - y shape: (1500,)
-11/29 10:59 - {train_predict.py:61} - x shape: (1500, 256)
-11/29 10:59 - {train_predict.py:79} - fitting model started ....
-11/29 10:59 - {train_predict.py:81} - model fitting finished
-11/29 10:59 - {train_predict.py:90} - score_test: 0.008
-11/29 10:59 - {train_predict.py:91} - score_train: 0.0
-11/29 10:59 - {run_model.py:43} - Final Score: 0.008
+11/30 07:48 - {train_predict.py:55} - {'model_params': {'type': 'svm', 'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'gamma': 6.250551925273976, 'degree': 4}}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
+11/30 07:48 - {train_predict.py:60} - y shape: (3000,)
+11/30 07:48 - {train_predict.py:61} - x shape: (3000, 256)
+11/30 07:48 - {train_predict.py:84} - fitting model started ....
+11/30 07:48 - {train_predict.py:86} - model fitting finished
+11/30 07:48 - {train_predict.py:95} - score_test: 0.0286666666667
+11/30 07:48 - {train_predict.py:96} - score_train: 0.0
+11/30 07:48 - {run_model.py:42} - Final Score: 0.0286666666667

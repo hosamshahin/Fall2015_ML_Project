@@ -28,18 +28,8 @@ pre_params =    {
                 'type': None
                 }
 
-
-# args = {}
-# args['data_params'] = data_params
-# args['model_params'] = model_params
-# args['pre_params'] = pre_params
-# logging.info("Args: %s", args)
-
-# args = {'model_params': {'params': {'max_features': 'auto', 'max_depth': 16}, 'type': 'RandomForestClassifier'}, 'data_params': 'p2', 'pre_params': {'type': None}}
-args = {'model_params': {'params': {'kernel': 'poly', 'C': 75.431200633546226, 'degree': 2, 'gamma': 0.0013257113655901081}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'standard'}}
+args = {'model_params': {'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'degree': 4, 'gamma': 6.2505519252739763}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
 
 
-score = run(args, vis=True, save_vis=True)
+score = run(args, vis=False, save_vis=False, save_model=True)
 logging.info("Final Score: %s", score)
-
-

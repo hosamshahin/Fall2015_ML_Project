@@ -17,17 +17,7 @@ def get_model(params):
     if model_type =='svm':
         if p['kernel'] == 'additive_chi2_kernel':
             p['kernel'] = additive_chi2_kernel
-            #model =  SVC(max_iter=1000 , **p)
         model =  SVC(max_iter=1000 , **p)
-
-    # elif model_type =='ridge':
-    #     model = Ridge(**p)
-    #
-    # elif model_type =='elastic':
-    #     model = ElasticNet(**p)
-    #
-    # elif model_type =='lasso':
-    #     model = Lasso(**p)
 
     elif model_type == 'decisionTree':
         model = DecisionTreeClassifier(**p)

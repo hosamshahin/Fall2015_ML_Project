@@ -2,7 +2,6 @@ import numpy as np
 import yaml
 import os
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # Load config
 def get_config():
     print(os.getcwd())
@@ -15,12 +14,7 @@ config = get_config()
 data_folder = config['data']['path']
 
 
-# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 def get_data(params):
-
-    # n_samples, n_features = 100, 100
-    # X = np.random.randn(n_samples, n_features)
-    # y = np.random.randn(n_samples)
 
     X = np.load(config['data']['training_data'])
     print("X shape: ", X.shape)
