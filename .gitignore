@@ -5,7 +5,6 @@
 /original_images
 /trainData
 #*.ipynb
-*.pkl
 *.pyc
 
 

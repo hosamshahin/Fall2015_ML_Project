@@ -65,7 +65,7 @@ def run(args, vis=False, save_vis=False, save_model=False):
 
     if save_model:
         model_type = args['model_params']['type']
-        with open('../results/' + model_type + '.p', 'wb') as output:
+        with open('../results/' + model_type + '.pkl', 'wb') as output:
             pickle.dump(model, output, pickle.HIGHEST_PROTOCOL)
 
 
