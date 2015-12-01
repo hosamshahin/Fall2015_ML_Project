@@ -1,4 +1,4 @@
-import logging, sys, yaml
+import logging, sys, yaml, json
 from train_predict import run
 
 # setup logging
@@ -30,6 +30,12 @@ pre_params =    {
 
 args = {'model_params': {'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'degree': 4, 'gamma': 6.2505519252739763}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
 
+tests = {}
+with open('../results/run_hyperOpt.json', 'r') as f:
+     json.load(f, tests)
 
-score = run(args, vis=False, save_vis=False, save_model=True)
-logging.info("Final Score: %s", score)
+print tests
+
+
+# score = run(args, vis=False, save_vis=False, save_model=True)
+# logging.info("Final Score: %s", score)
