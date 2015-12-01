@@ -1,4 +1,5 @@
-import logging, sys, os, pickle
+import logging, sys, os
+import cPickle as pickle
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from sklearn.cross_validation import train_test_split
@@ -64,7 +65,8 @@ def run(args, vis=False, save_vis=False, save_model=False):
 
     if save_model:
         model_type = args['model_params']['type']
-        pickle.dump(model, open('../results/' + model_type + '.p', 'wb'))
+        with open('../results/' + model_type + '.p', 'wb') as output:
+            pickle.dump(model, output, pickle.HIGHEST_PROTOCOL)
 
 
     # split data
