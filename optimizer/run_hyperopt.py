@@ -48,21 +48,23 @@ for trial in trials.trials:
             rval[k] = v[0]
 
     test = hyperopt.space_eval(space, rval)
-    test['result'] = trial['result']['loss']
+    test['error'] = trial['result']['loss']
     tests.append(test)
-    logging.info(test['result'])
+    logging.info(test['error'])
 
 
 #~~~~ Writing Yaml data
 # with open('../results/hyperOpt_svm'+'.yaml', 'w') as f:
      # yaml.dump(tests, f)
 #~~~~ Writing json data
-# with open('../results/hyperOpt_svm'+'.json', 'w') as f:
+# with open('../results/hyperopt_svm'+'.json', 'w') as f:
 #      json.dump(tests, f)
-# with open('../results/hyperOpt_DT'+'.json', 'w') as f:
+# with open('../results/hyperopt_DT'+'.json', 'w') as f:
 #      json.dump(tests, f)
-with open('../results/run_hyperopt_5'+'.json', 'w') as f:
+with open('../results/run_hyperopt_svm_5'+'.json', 'w') as f:
      json.dump(tests, f)
+# with open('../results/run_hyperopt_10'+'.json', 'w') as f:
+#      json.dump(tests, f)
 
 # Reading data back
 # with open('../results/trials2fixed'+timeStamp+'.yaml', 'r') as f:

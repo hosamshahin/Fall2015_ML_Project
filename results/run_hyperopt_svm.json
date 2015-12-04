@@ -1,1 +1,1501 @@
-[{"model_params": {"params": {"kernel": "poly", "C": 7.1968567300115138, "degree": 3, "gamma": 1.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.09466666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 71.96856730011514, "degree": 1, "gamma": 0.00019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.07866666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 372.7593720314938, "degree": 8, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9126666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 7, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.904}, {"model_params": {"params": {"kernel": "poly", "C": 0.00026826957952797245, "degree": 5, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.019333333333333334}, {"model_params": {"params": {"kernel": "linear", "C": 19.306977288832496, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.09266666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.0001, "degree": 4, "gamma": 0.13894954943731375}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9173333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.026826957952797246, "degree": 7, "gamma": 0.0026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.906}, {"model_params": {"params": {"kernel": "rbf", "C": 0.37275937203149379, "degree": 1, "gamma": 71.96856730011514}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.908}, {"model_params": {"params": {"kernel": "linear", "C": 0.026826957952797246, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.07933333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.10000000000000001, "degree": 8, "gamma": 193.06977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.7766666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 0.071968567300115138, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.08933333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.13894954943731375, "degree": 4, "gamma": 0.0005179474679231213}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8426666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 100.0, "degree": 9, "gamma": 0.0019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.9053333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 0.0071968567300115137, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9106666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 1000.0, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.10266666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0005179474679231213, "degree": 1, "gamma": 0.00013894954943731373}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9126666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 0.19306977288832497, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.082}, {"model_params": {"params": {"kernel": "linear", "C": 0.37275937203149379, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.142}, {"model_params": {"params": {"kernel": "linear", "C": 0.71968567300115138, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.11333333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.00026826957952797245, "degree": 1, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9086666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 71.96856730011514, "degree": 1, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.908}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0026826957952797246, "degree": 1, "gamma": 0.00019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9093333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.013894954943731374, "degree": 1, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.9073333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 1.3894954943731359, "degree": 1, "gamma": 0.0001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.91}, {"model_params": {"params": {"kernel": "rbf", "C": 0.00026826957952797245, "degree": 1, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.906}, {"model_params": {"params": {"kernel": "poly", "C": 193.06977288832496, "degree": 5, "gamma": 517.94746792312026}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.5326666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.0051794746792312128, "degree": 5, "gamma": 10.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.022}, {"model_params": {"params": {"kernel": "poly", "C": 0.0051794746792312128, "degree": 5, "gamma": 10.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.034}, {"model_params": {"params": {"kernel": "poly", "C": 10.0, "degree": 2, "gamma": 0.71968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.021333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 10.0, "degree": 2, "gamma": 0.71968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.028666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 719.68567300115137, "degree": 6, "gamma": 0.10000000000000001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.846}, {"model_params": {"params": {"kernel": "poly", "C": 0.0019306977288832496, "degree": 2, "gamma": 19.306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 26.826957952797219, "degree": 2, "gamma": 0.026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9093333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 138.94954943731361, "degree": 3, "gamma": 0.001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 2.6826957952797219, "degree": 2, "gamma": 0.01}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9126666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 3.7275937203149381, "degree": 9, "gamma": 0.00071968567300115217}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.914}, {"model_params": {"params": {"kernel": "poly", "C": 268.26957952797216, "degree": 6, "gamma": 1000.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.0037275937203149379, "degree": 5, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.10133333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.001, "degree": 2, "gamma": 3.7275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9126666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 5, "gamma": 0.0051794746792312128}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9113333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 5.1794746792312125, "degree": 6, "gamma": 1.3894954943731359}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.05}, {"model_params": {"params": {"kernel": "poly", "C": 0.051794746792312073, "degree": 3, "gamma": 0.0071968567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.822}, {"model_params": {"params": {"kernel": "poly", "C": 51.794746792312019, "degree": 7, "gamma": 5.1794746792312125}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.06466666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.00037275937203149379, "degree": 8, "gamma": 0.0037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.912}, {"model_params": {"params": {"kernel": "poly", "C": 0.01, "degree": 9, "gamma": 1.9306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.178}, {"model_params": {"params": {"kernel": "poly", "C": 13.89495494373136, "degree": 2, "gamma": 0.019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9073333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 1.9306977288832496, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.09266666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.26826957952797248, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.019333333333333334}, {"model_params": {"params": {"kernel": "linear", "C": 1.0, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.088}, {"model_params": {"params": {"kernel": "poly", "C": 37.275937203149383, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.36733333333333335}, {"model_params": {"params": {"kernel": "poly", "C": 0.26826957952797248, "degree": 4, "gamma": 719.68567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.028666666666666667}, {"model_params": {"params": {"kernel": "linear", "C": 0.00013894954943731373, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9093333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.00019306977288832496, "degree": 1, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.9073333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.51794746792312074, "degree": 4, "gamma": 0.0013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.0013894954943731374, "degree": 4, "gamma": 0.51794746792312074}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.912}, {"model_params": {"params": {"kernel": "rbf", "C": 0.037275937203149381, "degree": 1, "gamma": 0.071968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.9126666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 0.26826957952797248, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.188}, {"model_params": {"params": {"kernel": "poly", "C": 7.1968567300115138, "degree": 8, "gamma": 372.7593720314938}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.14733333333333334}, {"model_params": {"params": {"kernel": "rbf", "C": 372.7593720314938, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.06933333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.00026826957952797245, "degree": 7, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.776}, {"model_params": {"params": {"kernel": "linear", "C": 0.13894954943731375, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.31266666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 5, "gamma": 26.826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.042666666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 4, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.020666666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.10000000000000001, "degree": 1, "gamma": 0.037275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.9093333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 4, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02266666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.0001, "degree": 4, "gamma": 0.051794746792312073}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.071968567300115138, "degree": 4, "gamma": 0.19306977288832497}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.908}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 4, "gamma": 37.275937203149383}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.024666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 5, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.03}, {"model_params": {"params": {"kernel": "poly", "C": 19.306977288832496, "degree": 3, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.016}, {"model_params": {"params": {"kernel": "poly", "C": 19.306977288832496, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.015333333333333332}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.013333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 19.306977288832496, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.016}, {"model_params": {"params": {"kernel": "poly", "C": 100.0, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 100.0, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02266666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 3, "gamma": 0.00037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.912}, {"model_params": {"params": {"kernel": "poly", "C": 0.0005179474679231213, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02}, {"model_params": {"params": {"kernel": "poly", "C": 1000.0, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.016}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 3, "gamma": 0.13894954943731375}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9073333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 0.19306977288832497, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.248}, {"model_params": {"params": {"kernel": "rbf", "C": 100.0, "degree": 1, "gamma": 1.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.03}, {"model_params": {"params": {"kernel": "poly", "C": 0.026826957952797246, "degree": 3, "gamma": 0.37275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.07933333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 193.06977288832496, "degree": 3, "gamma": 0.0026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.906}, {"model_params": {"params": {"kernel": "poly", "C": 0.0026826957952797246, "degree": 3, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9046666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 71.96856730011514, "degree": 9, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.18733333333333332}, {"model_params": {"params": {"kernel": "linear", "C": 0.013894954943731374, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8153333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.37275937203149379, "degree": 6, "gamma": 71.96856730011514}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.628}, {"model_params": {"params": {"kernel": "rbf", "C": 1.3894954943731359, "degree": 1, "gamma": 193.06977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9086666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 138.94954943731361, "degree": 3, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.021333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 719.68567300115137, "degree": 7, "gamma": 0.0005179474679231213}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9073333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.0019306977288832496, "degree": 8, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.8153333333333334}, {"model_params": {"params": {"kernel": "linear", "C": 2.6826957952797219, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.08466666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 268.26957952797216, "degree": 3, "gamma": 0.0019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8173333333333334}, {"model_params": {"params": {"kernel": "rbf", "C": 26.826957952797219, "degree": 1, "gamma": 0.00019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9053333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 19.306977288832496, "degree": 3, "gamma": 0.00013894954943731373}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.9106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 3.7275937203149381, "degree": 9, "gamma": 0.0001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.912}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 3, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.018666666666666668}, {"model_params": {"params": {"kernel": "linear", "C": 0.001, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.908}, {"model_params": {"params": {"kernel": "poly", "C": 5.1794746792312125, "degree": 6, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.052}]
+[{
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 7.1968567300115138,
+      "degree": 3,
+      "gamma": 1.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.09466666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 71.96856730011514,
+      "degree": 1,
+      "gamma": 0.00019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.07866666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 372.7593720314938,
+      "degree": 8,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9126666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 7,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.904
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00026826957952797245,
+      "degree": 5,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.019333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 19.306977288832496,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.09266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0001,
+      "degree": 4,
+      "gamma": 0.13894954943731375
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9173333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.026826957952797246,
+      "degree": 7,
+      "gamma": 0.0026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.906
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 71.96856730011514
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.908
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.026826957952797246,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.07933333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.10000000000000001,
+      "degree": 8,
+      "gamma": 193.06977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.7766666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.071968567300115138,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.08933333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.13894954943731375,
+      "degree": 4,
+      "gamma": 0.0005179474679231213
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8426666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 100.0,
+      "degree": 9,
+      "gamma": 0.0019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.9053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.0071968567300115137,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 1000.0,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.10266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0005179474679231213,
+      "degree": 1,
+      "gamma": 0.00013894954943731373
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9126666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.19306977288832497,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.082
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.142
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.71968567300115138,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.11333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.00026826957952797245,
+      "degree": 1,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9086666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 71.96856730011514,
+      "degree": 1,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.908
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0026826957952797246,
+      "degree": 1,
+      "gamma": 0.00019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.013894954943731374,
+      "degree": 1,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.9073333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 1.3894954943731359,
+      "degree": 1,
+      "gamma": 0.0001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.91
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.00026826957952797245,
+      "degree": 1,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.906
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 193.06977288832496,
+      "degree": 5,
+      "gamma": 517.94746792312026
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.5326666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0051794746792312128,
+      "degree": 5,
+      "gamma": 10.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.022
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0051794746792312128,
+      "degree": 5,
+      "gamma": 10.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.034
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 10.0,
+      "degree": 2,
+      "gamma": 0.71968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.021333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 10.0,
+      "degree": 2,
+      "gamma": 0.71968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.028666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 719.68567300115137,
+      "degree": 6,
+      "gamma": 0.10000000000000001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.846
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0019306977288832496,
+      "degree": 2,
+      "gamma": 19.306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 26.826957952797219,
+      "degree": 2,
+      "gamma": 0.026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 138.94954943731361,
+      "degree": 3,
+      "gamma": 0.001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 2.6826957952797219,
+      "degree": 2,
+      "gamma": 0.01
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9126666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 3.7275937203149381,
+      "degree": 9,
+      "gamma": 0.00071968567300115217
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.914
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 268.26957952797216,
+      "degree": 6,
+      "gamma": 1000.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0037275937203149379,
+      "degree": 5,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.10133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.001,
+      "degree": 2,
+      "gamma": 3.7275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9126666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 5,
+      "gamma": 0.0051794746792312128
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9113333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 5.1794746792312125,
+      "degree": 6,
+      "gamma": 1.3894954943731359
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.05
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.051794746792312073,
+      "degree": 3,
+      "gamma": 0.0071968567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.822
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 51.794746792312019,
+      "degree": 7,
+      "gamma": 5.1794746792312125
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.06466666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00037275937203149379,
+      "degree": 8,
+      "gamma": 0.0037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.912
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.01,
+      "degree": 9,
+      "gamma": 1.9306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.178
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 13.89495494373136,
+      "degree": 2,
+      "gamma": 0.019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9073333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 1.9306977288832496,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.09266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.26826957952797248,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.019333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 1.0,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.088
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 37.275937203149383,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.36733333333333335
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.26826957952797248,
+      "degree": 4,
+      "gamma": 719.68567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.028666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.00013894954943731373,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.00019306977288832496,
+      "degree": 1,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.9073333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.51794746792312074,
+      "degree": 4,
+      "gamma": 0.0013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0013894954943731374,
+      "degree": 4,
+      "gamma": 0.51794746792312074
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.912
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.037275937203149381,
+      "degree": 1,
+      "gamma": 0.071968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.9126666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.26826957952797248,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.188
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 7.1968567300115138,
+      "degree": 8,
+      "gamma": 372.7593720314938
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.14733333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 372.7593720314938,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.06933333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00026826957952797245,
+      "degree": 7,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.776
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.13894954943731375,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.31266666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 5,
+      "gamma": 26.826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.042666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 4,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.020666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.10000000000000001,
+      "degree": 1,
+      "gamma": 0.037275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.9093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 4,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0001,
+      "degree": 4,
+      "gamma": 0.051794746792312073
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.071968567300115138,
+      "degree": 4,
+      "gamma": 0.19306977288832497
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.908
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 4,
+      "gamma": 37.275937203149383
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.024666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 5,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.03
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 19.306977288832496,
+      "degree": 3,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.016
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 19.306977288832496,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.015333333333333332
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.013333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 19.306977288832496,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.016
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 100.0,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 100.0,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 3,
+      "gamma": 0.00037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.912
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0005179474679231213,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1000.0,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.016
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 3,
+      "gamma": 0.13894954943731375
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9073333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.19306977288832497,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.248
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 100.0,
+      "degree": 1,
+      "gamma": 1.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.03
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.026826957952797246,
+      "degree": 3,
+      "gamma": 0.37275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.07933333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 193.06977288832496,
+      "degree": 3,
+      "gamma": 0.0026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.906
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0026826957952797246,
+      "degree": 3,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9046666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 71.96856730011514,
+      "degree": 9,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.18733333333333332
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.013894954943731374,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8153333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.37275937203149379,
+      "degree": 6,
+      "gamma": 71.96856730011514
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.628
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 1.3894954943731359,
+      "degree": 1,
+      "gamma": 193.06977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9086666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 138.94954943731361,
+      "degree": 3,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.021333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 719.68567300115137,
+      "degree": 7,
+      "gamma": 0.0005179474679231213
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9073333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0019306977288832496,
+      "degree": 8,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.8153333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 2.6826957952797219,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.08466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 268.26957952797216,
+      "degree": 3,
+      "gamma": 0.0019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8173333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 26.826957952797219,
+      "degree": 1,
+      "gamma": 0.00019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 19.306977288832496,
+      "degree": 3,
+      "gamma": 0.00013894954943731373
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.9106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 3.7275937203149381,
+      "degree": 9,
+      "gamma": 0.0001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.912
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 3,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.018666666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.001,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.908
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 5.1794746792312125,
+      "degree": 6,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.052
+}]

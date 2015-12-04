@@ -1,1 +1,4477 @@
-[{"model_params": {"params": {"max_features": "auto", "n_estimators": 7, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.23333333333333334}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 22, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.13066666666666665}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 25}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.4573333333333333}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 6, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.27466666666666667}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 6}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.4866666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 23, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.13333333333333333}, {"model_params": {"params": {"alpha": 0.013894954943731374, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [25, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.044}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 21}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.43866666666666665}, {"model_params": {"params": {"alpha": 7.1968567300115138, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [26, 15]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.6866666666666666}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 20}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.42}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 3}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.5973333333333334}, {"model_params": {"params": {"alpha": 0.0071968567300115137, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [26, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.06}, {"model_params": {"params": {"alpha": 0.013894954943731374, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [27, 8]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.058666666666666666}, {"model_params": {"params": {"alpha": 0.00019306977288832496, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [25, 8]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.032}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 18, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.15466666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 22, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.1}, {"model_params": {"params": {"kernel": "poly", "C": 0.013894954943731374, "degree": 9, "gamma": 0.0005179474679231213}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8226666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 3.7275937203149381, "degree": 1, "gamma": 0.019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.188}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 12, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.17733333333333334}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 28}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.48}, {"model_params": {"params": {"alpha": 0.13894954943731361, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [25, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.021333333333333333}, {"model_params": {"params": {"alpha": 0.13894954943731361, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [25, 23]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.05733333333333333}, {"model_params": {"params": {"alpha": 0.00019306977288832496, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [20, 8]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.05733333333333333}, {"model_params": {"params": {"alpha": 0.071968567300115138, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [25, 20]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.030666666666666665}, {"model_params": {"params": {"alpha": 0.071968567300115138, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [19, 19]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.044}, {"model_params": {"params": {"kernel": "linear", "C": 193.06977288832496, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.032}, {"model_params": {"params": {"alpha": 1.9306977288832496, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [13, 20]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.029333333333333333}, {"model_params": {"params": {"alpha": 1.9306977288832496, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [13, 20]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.04}, {"model_params": {"params": {"alpha": 0.01, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [17, 21]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.2786666666666667}, {"model_params": {"params": {"alpha": 0.0005179474679231213, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [13, 25]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.06266666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.01, "degree": 6, "gamma": 1000.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.6053333333333333}, {"model_params": {"params": {"alpha": 19.306977288832496, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [8, 10]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.044}, {"model_params": {"params": {"alpha": 5.1794746792312125e-05, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [24, 26]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.04533333333333334}, {"model_params": {"params": {"alpha": 0.0013894954943731374, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [21, 11]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.21866666666666668}, {"model_params": {"params": {"kernel": "rbf", "C": 268.26957952797216, "degree": 1, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.028}, {"model_params": {"params": {"kernel": "rbf", "C": 268.26957952797216, "degree": 1, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.037333333333333336}, {"model_params": {"params": {"kernel": "rbf", "C": 2.6826957952797219, "degree": 1, "gamma": 0.0051794746792312128}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.08}, {"model_params": {"params": {"kernel": "rbf", "C": 10.0, "degree": 1, "gamma": 0.00013894954943731373}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8053333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 100.0, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.050666666666666665}, {"model_params": {"params": {"kernel": "rbf", "C": 0.001, "degree": 1, "gamma": 5.1794746792312125}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.812}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 18}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.48533333333333334}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 16, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.16}, {"model_params": {"params": {"kernel": "poly", "C": 0.10000000000000001, "degree": 5, "gamma": 0.0071968567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8093333333333333}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 17}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.45066666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 27, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.14266666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 268.26957952797216, "degree": 1, "gamma": 1.3894954943731359}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.4146666666666667}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 2}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.676}, {"model_params": {"params": {"kernel": "linear", "C": 0.26826957952797248, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.044}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 28, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.1}, {"model_params": {"params": {"kernel": "poly", "C": 0.0013894954943731374, "degree": 2, "gamma": 0.51794746792312074}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.812}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 26}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.36666666666666664}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 24, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.13866666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 1.0, "degree": 1, "gamma": 0.0019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.7693333333333333}, {"model_params": {"params": {"alpha": 51.794746792312019, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [16, 4]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.7986666666666666}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 24}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.41333333333333333}, {"model_params": {"params": {"alpha": 0.13894954943731361, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [28, 17]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.03333333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.026826957952797246, "degree": 1, "gamma": 19.306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.8053333333333333}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 5, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.24133333333333334}, {"model_params": {"params": {"alpha": 0.051794746792312073, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [5, 12]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.184}, {"model_params": {"params": {"kernel": "linear", "C": 719.68567300115137, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.050666666666666665}, {"model_params": {"params": {"alpha": 0.00037275937203149379, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [9, 5]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.38}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 13}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.45866666666666667}, {"model_params": {"params": {"alpha": 0.019306977288832496, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [4, 7]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.06666666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 14, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.16}, {"model_params": {"params": {"kernel": "poly", "C": 138.94954943731361, "degree": 8, "gamma": 71.96856730011514}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.47733333333333333}, {"model_params": {"params": {"alpha": 0.00026826957952797245, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [15, 28]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.056}, {"model_params": {"params": {"alpha": 3.7275937203149381e-05, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [12, 22]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.05466666666666667}, {"model_params": {"params": {"alpha": 1.3894954943731359, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [14, 29]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.030666666666666665}, {"model_params": {"params": {"alpha": 13.89495494373136, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [22, 18]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.04533333333333334}, {"model_params": {"params": {"alpha": 1.9306977288832496e-05, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [18, 9]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.052}, {"model_params": {"params": {"alpha": 0.037275937203149381, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [29, 16]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.052}, {"model_params": {"params": {"alpha": 0.37275937203149379, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [6, 6]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.04}, {"model_params": {"params": {"alpha": 0.71968567300115138, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [10, 3]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.06266666666666666}, {"model_params": {"params": {"alpha": 1.0, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [3, 14]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.4706666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0026826957952797246, "degree": 1, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.8106666666666666}, {"model_params": {"params": {"alpha": 2.6826957952797274e-05, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [11, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.068}, {"model_params": {"params": {"alpha": 1.9306977288832496, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [13, 13]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.06266666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.51794746792312074, "degree": 3, "gamma": 0.10000000000000001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.04133333333333333}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 10}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.45066666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 19, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.13733333333333334}, {"model_params": {"params": {"alpha": 5.1794746792312019, "random_state": 1, "algorithm": "l-bfgs", "batch_size": 500, "hidden_layer_sizes": [25, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.04133333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.051794746792312073, "degree": 1, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.6293333333333333}, {"model_params": {"params": {"alpha": 37.275937203149383, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [7, 20]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.7266666666666667}, {"model_params": {"params": {"kernel": "linear", "C": 37.275937203149383, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.04}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 16}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.44533333333333336}, {"model_params": {"params": {"alpha": 0.001, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [26, 27]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.54}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 26, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.14133333333333334}, {"model_params": {"params": {"kernel": "rbf", "C": 51.794746792312019, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.025333333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 51.794746792312019, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.014666666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 51.794746792312019, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.024}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0001, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.808}, {"model_params": {"params": {"kernel": "rbf", "C": 51.794746792312019, "degree": 1, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8093333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.37275937203149379, "degree": 1, "gamma": 0.001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8306666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 7, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.48533333333333334}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0037275937203149379, "degree": 1, "gamma": 0.71968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8186666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.037275937203149381, "degree": 1, "gamma": 0.0013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8146666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.00026826957952797245, "degree": 1, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.071968567300115138, "degree": 4, "gamma": 0.00037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8226666666666667}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 29}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.43066666666666664}, {"model_params": {"params": {"kernel": "linear", "C": 372.7593720314938, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.03866666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 25, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.14}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0051794746792312128, "degree": 1, "gamma": 3.7275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.828}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0005179474679231213, "degree": 1, "gamma": 0.00019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.812}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 15}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.444}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 20, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.14533333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 7.1968567300115138, "degree": 3, "gamma": 0.19306977288832497}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 7.1968567300115138, "degree": 3, "gamma": 0.19306977288832497}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.6786666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 3, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.021333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 3, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 3, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.025333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 3, "gamma": 1.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.017333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 7.1968567300115138, "degree": 8, "gamma": 0.01}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8093333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.00037275937203149379, "degree": 5, "gamma": 193.06977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.10266666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 1.3894954943731359, "degree": 7, "gamma": 0.0026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8213333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 2, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.008}, {"model_params": {"params": {"kernel": "poly", "C": 13.89495494373136, "degree": 2, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.02}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 2, "gamma": 0.051794746792312073}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.812}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 11}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.46}, {"model_params": {"params": {"kernel": "poly", "C": 0.00019306977288832496, "degree": 2, "gamma": 268.26957952797216}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.025333333333333333}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 13, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.18133333333333335}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 3, "gamma": 0.13894954943731375}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8213333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 9, "gamma": 0.19306977288832497}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 71.96856730011514, "degree": 6, "gamma": 10.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.25066666666666665}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 22}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.4066666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 10, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.184}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 4, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.005333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 5.1794746792312125, "degree": 4, "gamma": 37.275937203149383}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.014666666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 517.94746792312026, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.037333333333333336}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 19}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.4013333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 19.306977288832496, "degree": 4, "gamma": 0.00071968567300115217}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 17, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.148}, {"model_params": {"params": {"kernel": "poly", "C": 0.0019306977288832496, "degree": 4, "gamma": 0.026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 1.9306977288832496, "degree": 2, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.017333333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 1000.0, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04133333333333333}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 5}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.612}, {"model_params": {"params": {"kernel": "poly", "C": 0.013894954943731374, "degree": 9, "gamma": 517.94746792312026}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.092}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 9, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.22}, {"model_params": {"params": {"kernel": "poly", "C": 0.00013894954943731373, "degree": 4, "gamma": 0.071968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 3.7275937203149381, "degree": 6, "gamma": 372.7593720314938}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.030666666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 2, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 12}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.436}, {"model_params": {"params": {"kernel": "linear", "C": 0.13894954943731375, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.24933333333333332}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 21, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.13066666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 2, "gamma": 0.37275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.013333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 193.06977288832496, "degree": 2, "gamma": 0.0037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8173333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 5, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.014666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.01, "degree": 2, "gamma": 26.826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.01, "degree": 8, "gamma": 26.826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.07733333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 100.0, "degree": 7, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.030666666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 0.01, "degree": 2, "gamma": 0.0001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 2.6826957952797219, "degree": 4, "gamma": 26.826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.013333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.0013894954943731374, "degree": 9, "gamma": 0.037275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "poly", "C": 0.001, "degree": 2, "gamma": 1.9306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.26826957952797248, "degree": 2, "gamma": 13.89495494373136}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.018666666666666668}, {"model_params": {"params": {"kernel": "linear", "C": 10.0, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04133333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 26.826957952797219, "degree": 3, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 26.826957952797219, "degree": 6, "gamma": 719.68567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.030666666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 26.826957952797219, "degree": 3, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.016}, {"model_params": {"params": {"kernel": "poly", "C": 0.10000000000000001, "degree": 3, "gamma": 0.0005179474679231213}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8146666666666667}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 23}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.3973333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 5, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.005333333333333333}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 15, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.15466666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.026826957952797246, "degree": 5, "gamma": 1000.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.014666666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 517.94746792312026, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04533333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 1.0, "degree": 5, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.021333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 719.68567300115137, "degree": 5, "gamma": 0.0071968567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8173333333333334}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 8}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.552}, {"model_params": {"params": {"kernel": "poly", "C": 0.0026826957952797246, "degree": 8, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.032}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 8, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.22133333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 5, "gamma": 5.1794746792312125}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 5, "gamma": 5.1794746792312125}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.024}, {"model_params": {"params": {"kernel": "poly", "C": 138.94954943731361, "degree": 7, "gamma": 0.019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.808}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 9}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.4533333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 7.1968567300115138, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.04666666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 29, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.10533333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.51794746792312074, "degree": 4, "gamma": 0.00013894954943731373}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8133333333333334}, {"model_params": {"params": {"alpha": 0.026826957952797246, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [23, 24]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.04933333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.051794746792312073, "degree": 5, "gamma": 1.3894954943731359}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.2773333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 2, "gamma": 0.0051794746792312128}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "rbf", "C": 517.94746792312026, "degree": 1, "gamma": 0.51794746792312074}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 27}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.4226666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.00026826957952797245, "degree": 4, "gamma": 19.306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.014666666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 11, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.19466666666666665}, {"model_params": {"params": {"alpha": 0.19306977288832497, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [27, 23]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.04}, {"model_params": {"params": {"kernel": "poly", "C": 268.26957952797216, "degree": 3, "gamma": 0.10000000000000001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 2, "gamma": 0.0019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.808}, {"model_params": {"params": {"kernel": "linear", "C": 37.275937203149383, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04133333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 5, "gamma": 5.1794746792312125}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.416}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 7}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.532}, {"model_params": {"params": {"kernel": "poly", "C": 0.0001, "degree": 9, "gamma": 0.19306977288832497}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.816}, {"model_params": {"params": {"alpha": 2.6826957952797219, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [20, 15]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.684}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 7, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.26266666666666666}, {"model_params": {"params": {"kernel": "rbf", "C": 0.37275937203149379, "degree": 1, "gamma": 71.96856730011514}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.071968567300115138, "degree": 3, "gamma": 7.1968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.018666666666666668}, {"model_params": {"params": {"kernel": "poly", "C": 0.0037275937203149379, "degree": 5, "gamma": 0.001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "poly", "C": 372.7593720314938, "degree": 6, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02266666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.0071968567300115137, "degree": 5, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8186666666666667}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 14}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.412}, {"model_params": {"params": {"alpha": 7.1968567300115141e-05, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [19, 6]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.05333333333333334}, {"model_params": {"params": {"kernel": "linear", "C": 0.037275937203149381, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.034666666666666665}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 24, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.11333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.0051794746792312128, "degree": 8, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.06133333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0005179474679231213, "degree": 1, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "pca"}, "result": 0.8173333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 4, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.006666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 4, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.20533333333333334}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 4}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.5533333333333333}, {"model_params": {"params": {"alpha": 10.0, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [16, 19]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.7933333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.00019306977288832496, "degree": 4, "gamma": 1.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.812}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 17, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.168}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 4, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.11066666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 1.3894954943731359, "degree": 4, "gamma": 0.0013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "linear", "C": 13.89495494373136, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.0}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 6}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.56}, {"model_params": {"params": {"kernel": "rbf", "C": 1.9306977288832496, "degree": 1, "gamma": 3.7275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.018666666666666668}, {"model_params": {"params": {"alpha": 0.2682695795279722, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [7, 21]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.076}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 6, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.2733333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.00037275937203149379, "degree": 4, "gamma": 0.00037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 4, "gamma": 0.01}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.812}, {"model_params": {"params": {"kernel": "poly", "C": 5.1794746792312125, "degree": 4, "gamma": 0.00019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 7, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.044}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 25}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.37866666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 71.96856730011514, "degree": 4, "gamma": 0.0026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"alpha": 26.826957952797219, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [17, 25]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 23, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.10666666666666667}, {"model_params": {"params": {"kernel": "linear", "C": 19.306977288832496, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.044}, {"model_params": {"params": {"kernel": "poly", "C": 0.013894954943731374, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.006666666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.0019306977288832496, "degree": 1, "gamma": 0.051794746792312073}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.808}, {"model_params": {"params": {"kernel": "poly", "C": 0.00013894954943731373, "degree": 4, "gamma": 193.06977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.012}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 21}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.4666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 3.7275937203149381, "degree": 6, "gamma": 0.71968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.10133333333333333}, {"model_params": {"params": {"alpha": 1.0000000000000001e-05, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [8, 10]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.08}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 18, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.14266666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 10.0, "degree": 9, "gamma": 0.13894954943731375}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.808}, {"model_params": {"params": {"kernel": "poly", "C": 0.013894954943731374, "degree": 8, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.09733333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 193.06977288832496, "degree": 4, "gamma": 37.275937203149383}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "linear", "C": 0.013894954943731374, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8093333333333333}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 2}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.5973333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 7, "gamma": 0.00071968567300115217}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8093333333333333}, {"model_params": {"params": {"alpha": 0.0019306977288832496, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [24, 11]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.7613333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 2.6826957952797219, "degree": 1, "gamma": 517.94746792312026}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8146666666666667}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 9, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.19066666666666668}, {"model_params": {"params": {"kernel": "poly", "C": 1000.0, "degree": 4, "gamma": 138.94954943731361}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.15866666666666668}, {"model_params": {"params": {"kernel": "poly", "C": 0.19306977288832497, "degree": 4, "gamma": 10.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.017333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 100.0, "degree": 9, "gamma": 0.026826957952797246}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 20}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.4186666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.13894954943731375, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.004}, {"model_params": {"params": {"alpha": 0.00071968567300115141, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [21, 26]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.05333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.001, "degree": 6, "gamma": 372.7593720314938}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.5626666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 12, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.20133333333333334}, {"model_params": {"params": {"kernel": "linear", "C": 0.0013894954943731374, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.13894954943731375, "degree": 8, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.07466666666666667}, {"model_params": {"params": {"kernel": "rbf", "C": 0.13894954943731375, "degree": 1, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.572}, {"model_params": {"params": {"kernel": "poly", "C": 0.13894954943731375, "degree": 4, "gamma": 1.9306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 28}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.42133333333333334}, {"model_params": {"params": {"alpha": 7.1968567300115138, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [22, 8]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.7333333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.26826957952797248, "degree": 5, "gamma": 0.37275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.013894954943731374, "degree": 4, "gamma": 0.071968567300115138}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8213333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 37.275937203149383, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 4, "gamma": 0.0037275937203149379}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.828}, {"model_params": {"params": {"kernel": "poly", "C": 0.026826957952797246, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.012}, {"model_params": {"params": {"kernel": "poly", "C": 1.0, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.051794746792312073, "degree": 7, "gamma": 0.037275937203149381}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8226666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.019306977288832496, "degree": 4, "gamma": 0.0051794746792312128}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8146666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 51.794746792312019, "degree": 5, "gamma": 0.019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.7466666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 268.26957952797216, "degree": 4, "gamma": 1000.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.010666666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.10000000000000001, "degree": 4, "gamma": 19.306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.006666666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.0001, "degree": 9, "gamma": 0.0001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8133333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 138.94954943731361, "degree": 5, "gamma": 0.0071968567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 719.68567300115137, "degree": 6, "gamma": 719.68567300115137}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.036}, {"model_params": {"params": {"kernel": "poly", "C": 0.10000000000000001, "degree": 4, "gamma": 19.306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.00026826957952797245, "degree": 8, "gamma": 1.3894954943731359}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "poly", "C": 0.37275937203149379, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.005333333333333333}, {"model_params": {"params": {"kernel": "linear", "C": 0.37275937203149379, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.08533333333333333}, {"model_params": {"params": {"kernel": "poly", "C": 0.37275937203149379, "degree": 3, "gamma": 0.0005179474679231213}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8106666666666666}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 22, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.12933333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 372.7593720314938, "degree": 1, "gamma": 0.00013894954943731373}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.336}, {"model_params": {"params": {"kernel": "poly", "C": 0.0026826957952797246, "degree": 7, "gamma": 0.001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"kernel": "poly", "C": 0.51794746792312074, "degree": 5, "gamma": 0.0019306977288832496}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8186666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 517.94746792312026, "degree": 4, "gamma": 0.51794746792312074}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.22133333333333333}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 18}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.48533333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.00071968567300115217, "degree": 4, "gamma": 71.96856730011514}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.009333333333333334}, {"model_params": {"params": {"alpha": 3.7275937203149381, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [5, 12]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.104}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 16, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.14533333333333334}, {"model_params": {"params": {"kernel": "poly", "C": 0.071968567300115138, "degree": 4, "gamma": 0.10000000000000001}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8186666666666667}, {"model_params": {"params": {"kernel": "linear", "C": 0.37275937203149379, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.09466666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.71968567300115138, "degree": 5, "gamma": 2.6826957952797219}, "type": "svm"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.5053333333333333}, {"model_params": {"params": {"kernel": "rbf", "C": 1.3894954943731359, "degree": 1, "gamma": 0.26826957952797248}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.042666666666666665}, {"model_params": {"params": {"max_features": "auto", "splitter": "best", "max_depth": 3}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.6426666666666667}, {"model_params": {"params": {"kernel": "poly", "C": 0.00037275937203149379, "degree": 6, "gamma": 0.00026826957952797245}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.816}, {"model_params": {"params": {"alpha": 100.0, "random_state": 1, "algorithm": "sgd", "batch_size": 500, "hidden_layer_sizes": [9, 17]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.8}, {"model_params": {"params": {"kernel": "poly", "C": 0.037275937203149381, "degree": 9, "gamma": 100.0}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.042666666666666665}, {"model_params": {"params": {"kernel": "poly", "C": 0.0005179474679231213, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.004}, {"model_params": {"params": {"max_features": "auto", "n_estimators": 27, "max_depth": 20}, "type": "RandomForestClassifier"}, "data_params": null, "pre_params": {"type": "standard"}, "result": 0.13466666666666666}, {"model_params": {"params": {"kernel": "poly", "C": 0.0005179474679231213, "degree": 3, "gamma": 0.013894954943731374}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.812}, {"model_params": {"params": {"kernel": "poly", "C": 0.0005179474679231213, "degree": 4, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.02}, {"model_params": {"params": {"kernel": "poly", "C": 0.0037275937203149379, "degree": 8, "gamma": 51.794746792312019}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.042666666666666665}, {"model_params": {"params": {"max_features": "auto", "splitter": "random", "max_depth": 23}, "type": "decisionTree"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.49466666666666664}, {"model_params": {"params": {"kernel": "linear", "C": 13.89495494373136, "degree": 1, "gamma": 3}, "type": "svm"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.04}, {"model_params": {"params": {"alpha": 0.0037275937203149379, "random_state": 1, "algorithm": "adam", "batch_size": 500, "hidden_layer_sizes": [28, 4]}, "type": "MLPClassifier"}, "data_params": null, "pre_params": {"type": "normalize"}, "result": 0.116}]
+[{
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 7,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.23333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 22,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.13066666666666665
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 25
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.4573333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 6,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.27466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 6
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.4866666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 23,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.13333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.013894954943731374,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 21
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.43866666666666665
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 7.1968567300115138,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [26, 15]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.6866666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 20
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.42
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 3
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.5973333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.0071968567300115137,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [26, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.06
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.013894954943731374,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [27, 8]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.058666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.00019306977288832496,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 8]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.032
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 18,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.15466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 22,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.1
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.013894954943731374,
+      "degree": 9,
+      "gamma": 0.0005179474679231213
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8226666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 3.7275937203149381,
+      "degree": 1,
+      "gamma": 0.019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.188
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 12,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.17733333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 28
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.48
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.13894954943731361,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.021333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.13894954943731361,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 23]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.05733333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.00019306977288832496,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [20, 8]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.05733333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.071968567300115138,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 20]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.030666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.071968567300115138,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [19, 19]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 193.06977288832496,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.032
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.9306977288832496,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [13, 20]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.029333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.9306977288832496,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [13, 20]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.01,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [17, 21]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.2786666666666667
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.0005179474679231213,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [13, 25]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.06266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.01,
+      "degree": 6,
+      "gamma": 1000.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.6053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 19.306977288832496,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [8, 10]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 5.1794746792312125e-05,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [24, 26]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.04533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.0013894954943731374,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [21, 11]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.21866666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 268.26957952797216,
+      "degree": 1,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.028
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 268.26957952797216,
+      "degree": 1,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.037333333333333336
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 2.6826957952797219,
+      "degree": 1,
+      "gamma": 0.0051794746792312128
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.08
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 10.0,
+      "degree": 1,
+      "gamma": 0.00013894954943731373
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 100.0,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.050666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.001,
+      "degree": 1,
+      "gamma": 5.1794746792312125
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 18
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.48533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 16,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.16
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.10000000000000001,
+      "degree": 5,
+      "gamma": 0.0071968567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 17
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.45066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 27,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.14266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 268.26957952797216,
+      "degree": 1,
+      "gamma": 1.3894954943731359
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.4146666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 2
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.676
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.26826957952797248,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 28,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.1
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0013894954943731374,
+      "degree": 2,
+      "gamma": 0.51794746792312074
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 26
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.36666666666666664
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 24,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.13866666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 1.0,
+      "degree": 1,
+      "gamma": 0.0019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.7693333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 51.794746792312019,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [16, 4]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.7986666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 24
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.41333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.13894954943731361,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [28, 17]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.03333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.026826957952797246,
+      "degree": 1,
+      "gamma": 19.306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.8053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 5,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.24133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.051794746792312073,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [5, 12]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.184
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 719.68567300115137,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.050666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.00037275937203149379,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [9, 5]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.38
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 13
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.45866666666666667
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.019306977288832496,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [4, 7]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.06666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 14,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.16
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 138.94954943731361,
+      "degree": 8,
+      "gamma": 71.96856730011514
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.47733333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.00026826957952797245,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [15, 28]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.056
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 3.7275937203149381e-05,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [12, 22]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.05466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.3894954943731359,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [14, 29]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.030666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 13.89495494373136,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [22, 18]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.04533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.9306977288832496e-05,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [18, 9]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.052
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.037275937203149381,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [29, 16]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.052
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.37275937203149379,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [6, 6]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.71968567300115138,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [10, 3]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.06266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.0,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [3, 14]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.4706666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0026826957952797246,
+      "degree": 1,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 2.6826957952797274e-05,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [11, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.068
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.9306977288832496,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [13, 13]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.06266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.51794746792312074,
+      "degree": 3,
+      "gamma": 0.10000000000000001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.04133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 10
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.45066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 19,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.13733333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 5.1794746792312019,
+      "random_state": 1,
+      "algorithm": "l-bfgs",
+      "batch_size": 500,
+      "hidden_layer_sizes": [25, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.04133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.051794746792312073,
+      "degree": 1,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.6293333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 37.275937203149383,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [7, 20]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.7266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 37.275937203149383,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 16
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.44533333333333336
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.001,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [26, 27]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.54
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 26,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.14133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 51.794746792312019,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.025333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 51.794746792312019,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.014666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 51.794746792312019,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.024
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0001,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.808
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 51.794746792312019,
+      "degree": 1,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 0.001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8306666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 7,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.48533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0037275937203149379,
+      "degree": 1,
+      "gamma": 0.71968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8186666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.037275937203149381,
+      "degree": 1,
+      "gamma": 0.0013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8146666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.00026826957952797245,
+      "degree": 1,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.071968567300115138,
+      "degree": 4,
+      "gamma": 0.00037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8226666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 29
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.43066666666666664
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 372.7593720314938,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.03866666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 25,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.14
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0051794746792312128,
+      "degree": 1,
+      "gamma": 3.7275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.828
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0005179474679231213,
+      "degree": 1,
+      "gamma": 0.00019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 15
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.444
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 20,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.14533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 7.1968567300115138,
+      "degree": 3,
+      "gamma": 0.19306977288832497
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 7.1968567300115138,
+      "degree": 3,
+      "gamma": 0.19306977288832497
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.6786666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 3,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.021333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 3,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 3,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.025333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 3,
+      "gamma": 1.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.017333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 7.1968567300115138,
+      "degree": 8,
+      "gamma": 0.01
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00037275937203149379,
+      "degree": 5,
+      "gamma": 193.06977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.10266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1.3894954943731359,
+      "degree": 7,
+      "gamma": 0.0026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8213333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 2,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.008
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 13.89495494373136,
+      "degree": 2,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.02
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 2,
+      "gamma": 0.051794746792312073
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 11
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.46
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00019306977288832496,
+      "degree": 2,
+      "gamma": 268.26957952797216
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.025333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 13,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.18133333333333335
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 3,
+      "gamma": 0.13894954943731375
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8213333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 9,
+      "gamma": 0.19306977288832497
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 71.96856730011514,
+      "degree": 6,
+      "gamma": 10.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.25066666666666665
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 22
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.4066666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 10,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.184
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 4,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.005333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 5.1794746792312125,
+      "degree": 4,
+      "gamma": 37.275937203149383
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.014666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 517.94746792312026,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.037333333333333336
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 19
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.4013333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 19.306977288832496,
+      "degree": 4,
+      "gamma": 0.00071968567300115217
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 17,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.148
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0019306977288832496,
+      "degree": 4,
+      "gamma": 0.026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1.9306977288832496,
+      "degree": 2,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.017333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 1000.0,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 5
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.612
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.013894954943731374,
+      "degree": 9,
+      "gamma": 517.94746792312026
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.092
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 9,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.22
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00013894954943731373,
+      "degree": 4,
+      "gamma": 0.071968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 3.7275937203149381,
+      "degree": 6,
+      "gamma": 372.7593720314938
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.030666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 2,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 12
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.436
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.13894954943731375,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.24933333333333332
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 21,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.13066666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 2,
+      "gamma": 0.37275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.013333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 193.06977288832496,
+      "degree": 2,
+      "gamma": 0.0037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8173333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 5,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.014666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.01,
+      "degree": 2,
+      "gamma": 26.826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.01,
+      "degree": 8,
+      "gamma": 26.826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.07733333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 100.0,
+      "degree": 7,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.030666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.01,
+      "degree": 2,
+      "gamma": 0.0001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 2.6826957952797219,
+      "degree": 4,
+      "gamma": 26.826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.013333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0013894954943731374,
+      "degree": 9,
+      "gamma": 0.037275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.001,
+      "degree": 2,
+      "gamma": 1.9306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.26826957952797248,
+      "degree": 2,
+      "gamma": 13.89495494373136
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.018666666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 10.0,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 26.826957952797219,
+      "degree": 3,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 26.826957952797219,
+      "degree": 6,
+      "gamma": 719.68567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.030666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 26.826957952797219,
+      "degree": 3,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.016
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.10000000000000001,
+      "degree": 3,
+      "gamma": 0.0005179474679231213
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8146666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 23
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.3973333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 5,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.005333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 15,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.15466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.026826957952797246,
+      "degree": 5,
+      "gamma": 1000.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.014666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 517.94746792312026,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1.0,
+      "degree": 5,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.021333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 719.68567300115137,
+      "degree": 5,
+      "gamma": 0.0071968567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8173333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 8
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.552
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0026826957952797246,
+      "degree": 8,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.032
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 8,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.22133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 5,
+      "gamma": 5.1794746792312125
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 5,
+      "gamma": 5.1794746792312125
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.024
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 138.94954943731361,
+      "degree": 7,
+      "gamma": 0.019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.808
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 9
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.4533333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 7.1968567300115138,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.04666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 29,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.10533333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.51794746792312074,
+      "degree": 4,
+      "gamma": 0.00013894954943731373
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.026826957952797246,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [23, 24]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.04933333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.051794746792312073,
+      "degree": 5,
+      "gamma": 1.3894954943731359
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.2773333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 2,
+      "gamma": 0.0051794746792312128
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 517.94746792312026,
+      "degree": 1,
+      "gamma": 0.51794746792312074
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 27
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.4226666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00026826957952797245,
+      "degree": 4,
+      "gamma": 19.306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.014666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 11,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.19466666666666665
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.19306977288832497,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [27, 23]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 268.26957952797216,
+      "degree": 3,
+      "gamma": 0.10000000000000001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 2,
+      "gamma": 0.0019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.808
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 37.275937203149383,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 5,
+      "gamma": 5.1794746792312125
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.416
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 7
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.532
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0001,
+      "degree": 9,
+      "gamma": 0.19306977288832497
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 2.6826957952797219,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [20, 15]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.684
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 7,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.26266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 71.96856730011514
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.071968567300115138,
+      "degree": 3,
+      "gamma": 7.1968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.018666666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0037275937203149379,
+      "degree": 5,
+      "gamma": 0.001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 372.7593720314938,
+      "degree": 6,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02266666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0071968567300115137,
+      "degree": 5,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8186666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 14
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.412
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 7.1968567300115141e-05,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [19, 6]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.05333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.037275937203149381,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.034666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 24,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.11333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0051794746792312128,
+      "degree": 8,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.06133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0005179474679231213,
+      "degree": 1,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "pca"
+  },
+  "result": 0.8173333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 4,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.006666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 4,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.20533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 4
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.5533333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 10.0,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [16, 19]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.7933333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00019306977288832496,
+      "degree": 4,
+      "gamma": 1.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 17,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.168
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 4,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.11066666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1.3894954943731359,
+      "degree": 4,
+      "gamma": 0.0013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 13.89495494373136,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.0
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 6
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.56
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 1.9306977288832496,
+      "degree": 1,
+      "gamma": 3.7275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.018666666666666668
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.2682695795279722,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [7, 21]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.076
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 6,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.2733333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00037275937203149379,
+      "degree": 4,
+      "gamma": 0.00037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 4,
+      "gamma": 0.01
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 5.1794746792312125,
+      "degree": 4,
+      "gamma": 0.00019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 7,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 25
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.37866666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 71.96856730011514,
+      "degree": 4,
+      "gamma": 0.0026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 26.826957952797219,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [17, 25]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 23,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.10666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 19.306977288832496,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.044
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.013894954943731374,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.006666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.0019306977288832496,
+      "degree": 1,
+      "gamma": 0.051794746792312073
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.808
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00013894954943731373,
+      "degree": 4,
+      "gamma": 193.06977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.012
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 21
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.4666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 3.7275937203149381,
+      "degree": 6,
+      "gamma": 0.71968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.10133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 1.0000000000000001e-05,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [8, 10]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.08
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 18,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.14266666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 10.0,
+      "degree": 9,
+      "gamma": 0.13894954943731375
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.808
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.013894954943731374,
+      "degree": 8,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.09733333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 193.06977288832496,
+      "degree": 4,
+      "gamma": 37.275937203149383
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.013894954943731374,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 2
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.5973333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 7,
+      "gamma": 0.00071968567300115217
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8093333333333333
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.0019306977288832496,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [24, 11]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.7613333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 2.6826957952797219,
+      "degree": 1,
+      "gamma": 517.94746792312026
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8146666666666667
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 9,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.19066666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1000.0,
+      "degree": 4,
+      "gamma": 138.94954943731361
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.15866666666666668
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.19306977288832497,
+      "degree": 4,
+      "gamma": 10.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.017333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 100.0,
+      "degree": 9,
+      "gamma": 0.026826957952797246
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 20
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.4186666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.13894954943731375,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.004
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.00071968567300115141,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [21, 26]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.05333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.001,
+      "degree": 6,
+      "gamma": 372.7593720314938
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.5626666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 12,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.20133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.0013894954943731374,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.13894954943731375,
+      "degree": 8,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.07466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 0.13894954943731375,
+      "degree": 1,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.572
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.13894954943731375,
+      "degree": 4,
+      "gamma": 1.9306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 28
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.42133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 7.1968567300115138,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [22, 8]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.7333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.26826957952797248,
+      "degree": 5,
+      "gamma": 0.37275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.013894954943731374,
+      "degree": 4,
+      "gamma": 0.071968567300115138
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8213333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 37.275937203149383,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 4,
+      "gamma": 0.0037275937203149379
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.828
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.026826957952797246,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.012
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 1.0,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.051794746792312073,
+      "degree": 7,
+      "gamma": 0.037275937203149381
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8226666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.019306977288832496,
+      "degree": 4,
+      "gamma": 0.0051794746792312128
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8146666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 51.794746792312019,
+      "degree": 5,
+      "gamma": 0.019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.7466666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 268.26957952797216,
+      "degree": 4,
+      "gamma": 1000.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.010666666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.10000000000000001,
+      "degree": 4,
+      "gamma": 19.306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.006666666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0001,
+      "degree": 9,
+      "gamma": 0.0001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8133333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 138.94954943731361,
+      "degree": 5,
+      "gamma": 0.0071968567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 719.68567300115137,
+      "degree": 6,
+      "gamma": 719.68567300115137
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.036
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.10000000000000001,
+      "degree": 4,
+      "gamma": 19.306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00026826957952797245,
+      "degree": 8,
+      "gamma": 1.3894954943731359
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.37275937203149379,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.005333333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.08533333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.37275937203149379,
+      "degree": 3,
+      "gamma": 0.0005179474679231213
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8106666666666666
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 22,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.12933333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 372.7593720314938,
+      "degree": 1,
+      "gamma": 0.00013894954943731373
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.336
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0026826957952797246,
+      "degree": 7,
+      "gamma": 0.001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.51794746792312074,
+      "degree": 5,
+      "gamma": 0.0019306977288832496
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8186666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 517.94746792312026,
+      "degree": 4,
+      "gamma": 0.51794746792312074
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.22133333333333333
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 18
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.48533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00071968567300115217,
+      "degree": 4,
+      "gamma": 71.96856730011514
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.009333333333333334
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 3.7275937203149381,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [5, 12]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.104
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 16,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.14533333333333334
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.071968567300115138,
+      "degree": 4,
+      "gamma": 0.10000000000000001
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8186666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 0.37275937203149379,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.09466666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.71968567300115138,
+      "degree": 5,
+      "gamma": 2.6826957952797219
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.5053333333333333
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "rbf",
+      "C": 1.3894954943731359,
+      "degree": 1,
+      "gamma": 0.26826957952797248
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.042666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "best",
+      "max_depth": 3
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.6426666666666667
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.00037275937203149379,
+      "degree": 6,
+      "gamma": 0.00026826957952797245
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.816
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 100.0,
+      "random_state": 1,
+      "algorithm": "sgd",
+      "batch_size": 500,
+      "hidden_layer_sizes": [9, 17]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.8
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.037275937203149381,
+      "degree": 9,
+      "gamma": 100.0
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.042666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0005179474679231213,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.004
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "n_estimators": 27,
+      "max_depth": 20
+    },
+    "type": "RandomForestClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "standard"
+  },
+  "result": 0.13466666666666666
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0005179474679231213,
+      "degree": 3,
+      "gamma": 0.013894954943731374
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.812
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0005179474679231213,
+      "degree": 4,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.02
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "poly",
+      "C": 0.0037275937203149379,
+      "degree": 8,
+      "gamma": 51.794746792312019
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.042666666666666665
+}, {
+  "model_params": {
+    "params": {
+      "max_features": "auto",
+      "splitter": "random",
+      "max_depth": 23
+    },
+    "type": "decisionTree"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.49466666666666664
+}, {
+  "model_params": {
+    "params": {
+      "kernel": "linear",
+      "C": 13.89495494373136,
+      "degree": 1,
+      "gamma": 3
+    },
+    "type": "svm"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.04
+}, {
+  "model_params": {
+    "params": {
+      "alpha": 0.0037275937203149379,
+      "random_state": 1,
+      "algorithm": "adam",
+      "batch_size": 500,
+      "hidden_layer_sizes": [28, 4]
+    },
+    "type": "MLPClassifier"
+  },
+  "data_params": null,
+  "pre_params": {
+    "type": "normalize"
+  },
+  "result": 0.116
+}]

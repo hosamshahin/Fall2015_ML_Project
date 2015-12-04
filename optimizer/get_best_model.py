@@ -30,7 +30,7 @@ bestResults = {}
 bestModels = {}
 for model in trials:
     model_type = model['model_params']['type']
-    model_result = model['result']
+    model_result = model['error']
     if model_type in bestResults:
         if model_result < bestResults[model_type]:
             bestResults[model_type] = model_result
