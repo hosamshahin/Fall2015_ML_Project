@@ -7,10 +7,11 @@ from sklearn.metrics.pairwise import additive_chi2_kernel
 # http://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # http://www.svms.org/parameters/
 # http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf
-C = hp.choice('svm_C',  np.logspace(-4, 3, 50))
-# gamma =  hp.choice('svm_gamma',  np.logspace(-4, 3, 50))
-gamma =  'auto'
-degree =  hp.choice('poly_degree', range(3,4))
+C = hp.choice('svm_C',  np.logspace(-4, 6, 50))
+# gamma =  hp.choice('svm_gamma',  np.logspace(-9, 4, 50))
+gamma =  10
+# degree =  hp.choice('poly_degree', range(3,4))
+degree =  3
 
 svm = {
         'type': 'svm',
