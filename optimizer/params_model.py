@@ -31,7 +31,9 @@ decisionTree = {
         'params':{
             'max_depth': hp.choice('max_depth', range(2,30)),
             'max_features': 'auto', #hp.choice('max_features', [features_perct, 'log2', 'auto']),
-            'splitter': hp.choice('splitter', ['best', 'random'])
+            # 'splitter': hp.choice('splitter', ['best', 'random'])
+            # 'splitter': hp.choice('splitter',  'random')
+            'splitter': 'best'
         }
     }
 
@@ -39,9 +41,9 @@ decisionTree = {
 randomForestClassifier = {
         'type': 'RandomForestClassifier',
         'params':{
-            'max_depth': 20, #hp.choice('max_depth2', range(1,30)),
+            'max_depth': hp.choice('max_depth2', range(5,40)),
             'max_features': 'auto', #hp.choice('max_features2', [features_perct, 'log2', 'auto']),
-            'n_estimators': hp.choice('forst_estimators', range(5,30))
+            'n_estimators': hp.choice('forst_estimators', [10,20,30,40,50])
         }
 }
 
@@ -65,9 +67,9 @@ MLPClassifier = {
 #---------------------- choose models ---------------
 
 # m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
-m=[svm]
+# m=[svm]
 # m=[decisionTree]
-# m=[randomForestClassifier]
+m=[randomForestClassifier]
 # m=[MLPClassifier]
 
 choices = hp.choice('model', m)
