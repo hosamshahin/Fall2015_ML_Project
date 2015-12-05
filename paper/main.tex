@@ -34,6 +34,9 @@
 % note in the first column to ``Proceedings of the...''
 \usepackage[accepted]{icml2016}
 
+\usepackage{multirow}
+\usepackage{booktabs}
+
 \begin{document}
 
 \twocolumn[
@@ -92,12 +95,20 @@ Reinforcement learning: For the system to better itself over time, we deploy a r
 \label{tab:bestParams}
 \vskip 0.15in
 \begin{center}\begin{small}\begin{sc}
-  \begin{tabular}{lccccccccccr}
+  \begin{tabular}{lcccccccccc}
     \hline
     \abovespace\belowspace
-    Number of &  \shortstack{a\\b} &  &  &  &  &  &  &  &  &  \\
-    \hline
-    Gestures  &\multicolumn{1}{|p{1.0cm}}{\centering kernel}
+              &\multicolumn{4}{|c}{SVM}
+              &\multicolumn{2}{|c}{Decision Tree}
+              &\multicolumn{2}{|c}{Neural Networks}
+              &\multicolumn{2}{|c}{Random Forest} \\
+              \cmidrule(lr){2-5}
+              \cmidrule(lr){6-7}
+              \cmidrule(lr){8-9}
+              \cmidrule(lr){10-11}
+    \abovespace\belowspace
+    \multirow{2}{*}{\shortstack{Number of \\Gestures}}
+              &\multicolumn{1}{|p{1.0cm}}{kernel}
               &\multicolumn{1}{p{0.5cm}}{\centering C}
               &\multicolumn{1}{p{1.0cm}}{\centering degree}
               &\multicolumn{1}{p{1.0cm}}{\centering gamma}
@@ -106,9 +117,9 @@ Reinforcement learning: For the system to better itself over time, we deploy a r
               &\multicolumn{1}{|p{0.75cm}}{\centering alpha}
               &\multicolumn{1}{p{1.5cm}}{\centering hidden \\ layers \\Size}
               &\multicolumn{1}{|p{1.25cm}}{\centering max \\ depth}
-              &\multicolumn{1}{p{1.25cm}}{\centering n \\ estimators} \\
+              &\multicolumn{1}{p{1.5cm}}{\centering n \\ estimators} \\
     \hline
-    \abovespace\belowspace
+    \abovespace
     5         &\multicolumn{1}{|c}{poly}
               &0.72
               &4
@@ -119,7 +130,7 @@ Reinforcement learning: For the system to better itself over time, we deploy a r
               &25,27
               &\multicolumn{1}{|c}{20}
               &22  \\
-    \abovespace\belowspace
+    \abovespace
     10        &\multicolumn{1}{|c}{poly}
               &0.02
               &4
@@ -137,6 +148,47 @@ Reinforcement learning: For the system to better itself over time, we deploy a r
 \end{table*}
 % \end{table}
 
+\begin{tabular}{ |l|l|l| }
+    \hline
+    \multicolumn{3}{ |c| }{Team sheet} \\
+    \hline
+    Goalkeeper & GK & Paul Robinson \\
+    \hline
+    \multirow{4}{*}{Defenders} & LB & Lucas Radebe \\
+     & DC & Michael Duburry \\
+     & DC & Dominic Matteo \\
+     & RB & Didier Domi \\
+    \hline
+    \multirow{3}{*}{Midfielders} & MC & David Batty \\
+     & MC & Eirik Bakke \\
+     & MC & Jody Morris \\
+    \hline
+    Forward & FW & Jamie McMaster \\
+    \hline
+    \multirow{2}{*}{Strikers} & ST & Alan Smith \\
+     & ST & Mark Viduka \\
+    \hline
+\end{tabular}
+
+\begin{tabular}{cc|c|c|c|c|l}
+\cline{3-6}
+& & \multicolumn{4}{ c| }{Primes} \\
+\cline{3-6}
+& & 2 & 3 & 5 & 7 \\
+\cline{1-6}
+\multicolumn{1}{ |c  }{\multirow{2}{*}{Powers} } &
+\multicolumn{1}{ |c| }{504} & 3 & 2 & 0 & 1 &     \\
+\cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{540} & 2 & 3 & 1 & 0 &     \\
+\cline{1-6}
+\multicolumn{1}{ |c  }{\multirow{2}{*}{Powers} } &
+\multicolumn{1}{ |c| }{gcd} & 2 & 2 & 0 & 0 & min \\
+\cline{2-6}
+\multicolumn{1}{ |c  }{}                        &
+\multicolumn{1}{ |c| }{lcm} & 3 & 3 & 1 & 1 & max \\
+\cline{1-6}
+\end{tabular}
 
 \section{Hand Gesture Model Selection}
 
