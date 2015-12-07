@@ -1,5 +1,7 @@
 data:
   path: '../data/'
-  training_data: '../data/10_gestures_256_words_data.npy'
-  training_labels: '../data/10_gestures_256_words_labels.npy'
+  training_data: '../data/5_gestures_256_words_train_data.npy'
+  training_labels: '../data/5_gestures_256_words_train_labels.npy'
+  testing_data: '../data/5_gestures_256_words_test_data.npy'
+  testing_labels: '../data/5_gestures_256_words_test_labels.npy'
   processed: '../processed/'
