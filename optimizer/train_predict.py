@@ -47,7 +47,7 @@ def visualize(data, scores, args, save_vis =False):
     # plt.close()
 
 
-def run(args, vis=False, save_vis=False, save_model=False, save_cm=False):
+def run(args, vis=False, save_vis=False, save_model=False, save_cm=False, phase='train'):
     logging.info("Running new experiment\n========================\n")
 
     data_params = args['data_params']
@@ -56,10 +56,18 @@ def run(args, vis=False, save_vis=False, save_model=False, save_cm=False):
     logging.info(args)
 
     # get data
-    X, y = get_data(data_params)
+    if phase == 'train':
+        X, y = get_data(data_params, phase)
+        # split data
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
+    else:
+        X_train, y_train = get_data(data_params, 'train')
+        X_test, y_test = get_data(data_params, 'test')
 
-    logging.info('y shape: %s', y.shape)
-    logging.info('x shape: %s', X.shape)
+
+    logging.info('y shape: %s', y_train.shape)
+    logging.info('x shape: %s', X_train.shape)
+
     # get model
     model = get_model(model_params)
 
@@ -68,8 +76,6 @@ def run(args, vis=False, save_vis=False, save_model=False, save_cm=False):
         with open('../results/bestModels/' + model_type + '.pkl', 'wb') as output:
             pickle.dump(model, output, pickle.HIGHEST_PROTOCOL)
 
-    # split data
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3)
 
     # preprocessing
     proc = pre.get_processor(pre_params)

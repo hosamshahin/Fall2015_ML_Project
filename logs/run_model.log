@@ -1,10 +1,60 @@
-12/05 10:32 - {train_predict.py:51} - Running new experiment
+12/06 11:06 - {train_predict.py:51} - Running new experiment
 ========================
 
-12/05 10:32 - {train_predict.py:56} - {'model_params': {'params': {'kernel': 'poly', 'C': 0.002682695795279727, 'degree': 3, 'gamma': 255.95479226995437}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.0}
-12/05 10:32 - {train_predict.py:61} - y shape: (3000,)
-12/05 10:32 - {train_predict.py:62} - x shape: (3000, 256)
-12/05 10:32 - {train_predict.py:85} - fitting model started ....
-12/05 10:32 - {train_predict.py:87} - model fitting finished
-12/05 10:32 - {train_predict.py:95} - score_test: 0.0188888888889
-12/05 10:32 - {train_predict.py:96} - score_train: 0.0
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'alpha': 0.003727593720314938, 'random_state': 1, 'algorithm': 'adam', 'batch_size': 500, 'hidden_layer_sizes': [28, 14]}, 'type': 'MLPClassifier'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.022222222222222223}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.095
+12/06 11:06 - {train_predict.py:102} - score_train: 0.0
+12/06 11:06 - {train_predict.py:51} - Running new experiment
+========================
+
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'max_features': 'auto', 'n_estimators': 40, 'max_depth': 30}, 'type': 'RandomForestClassifier'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.04722222222222222}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.138333333333
+12/06 11:06 - {train_predict.py:102} - score_train: 0.0
+12/06 11:06 - {train_predict.py:51} - Running new experiment
+========================
+
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'kernel': 'rbf', 'C': 95409.54763499963, 'degree': 1, 'gamma': 0.30888435964774846}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.019444444444444445}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.0216666666667
+12/06 11:06 - {train_predict.py:102} - score_train: 0.0
+12/06 11:06 - {train_predict.py:51} - Running new experiment
+========================
+
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'kernel': 'poly', 'C': 542.867543932386, 'degree': 3, 'gamma': 2947.051702551822}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.0}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.0166666666667
+12/06 11:06 - {train_predict.py:102} - score_train: 0.0
+12/06 11:06 - {train_predict.py:51} - Running new experiment
+========================
+
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'max_features': 'auto', 'splitter': 'best', 'max_depth': 10}, 'type': 'decisionTree'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.35833333333333334}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.576666666667
+12/06 11:06 - {train_predict.py:102} - score_train: 0.349583333333
+12/06 11:06 - {train_predict.py:51} - Running new experiment
+========================
+
+12/06 11:06 - {train_predict.py:56} - {'model_params': {'params': {'kernel': 'linear', 'C': 12.648552168552959, 'degree': 1, 'gamma': 5428.67543932386}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': None}, 'error': 0.022222222222222223}
+12/06 11:06 - {train_predict.py:68} - y shape: (2400,)
+12/06 11:06 - {train_predict.py:69} - x shape: (2400, 256)
+12/06 11:06 - {train_predict.py:91} - fitting model started ....
+12/06 11:06 - {train_predict.py:93} - model fitting finished
+12/06 11:06 - {train_predict.py:101} - score_test: 0.0683333333333
+12/06 11:06 - {train_predict.py:102} - score_train: 0.0

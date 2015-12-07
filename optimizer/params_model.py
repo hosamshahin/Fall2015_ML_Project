@@ -10,10 +10,6 @@ from sklearn.metrics.pairwise import additive_chi2_kernel
 C = hp.choice('svm_C',  np.logspace(-4, 6, 50))
 gamma =  hp.choice('svm_gamma',  np.logspace(-9, 4, 50))
 degree =  hp.choice('poly_degree', range(3,4))
-
-# gamma =  10
-# degree =  3
-
 svm = {
         'type': 'svm',
         'params': hp.pchoice('svm_model_choice',
@@ -66,8 +62,8 @@ MLPClassifier = {
 
 #---------------------- choose models ---------------
 
-# m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
-m=[svm]
+m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
+# m=[svm]
 # m=[decisionTree]
 # m=[randomForestClassifier]
 # m=[MLPClassifier]

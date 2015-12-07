@@ -9,7 +9,6 @@ from hyperopt import fmin, tpe, Trials
 from train_predict import run
 from matplotlib import pyplot as plt
 
-
 # setup logging
 logging.basicConfig(filename='../logs/run_hyperopt.log',
                     filemode='w',
@@ -28,7 +27,6 @@ space = {'data_params': params_data.data_choices,
 trials = Trials()
 
 best = fmin(run, space, algo=tpe.suggest, max_evals=300, trials=trials)
-
 
 logging.info("~~~~~~~~~~~~~~~~~ fmin Done ~~~~~~~~~~~~~~~~~")
 logging.info("Best Model:")
@@ -53,19 +51,18 @@ for trial in trials.trials:
     tests.append(test)
     logging.info(test['error'])
 
-
 #~~~~ Writing Yaml data
 # with open('../results/trials/hyperopt_svm'+'.yaml', 'w') as f:
      # yaml.dump(tests, f)
 #~~~~ Writing json data
-# with open('../results/trials/hyperopt_svm'+'.json', 'w') as f:
-#      json.dump(tests, f)
+with open('../results/trials/run_hyperopt_all_5'+'.json', 'w') as f:
+     json.dump(tests, f)
 # with open('../results/trials/hyperopt_DT_best_10'+'.json', 'w') as f:
 #      json.dump(tests, f)
 # with open('../results/trials/run_hyperopt_svm_5'+'.json', 'w') as f:
 #      json.dump(tests, f)
-with open('../results/trials/run_hyperopt_svm_10'+'.json', 'w') as f:
-     json.dump(tests, f)
+# with open('../results/trials/run_hyperopt_svm_10'+'.json', 'w') as f:
+#      json.dump(tests, f)
 # with open('../results/trials/run_hyperopt_MLP_5'+'.json', 'w') as f:
 #      json.dump(tests, f)
 # with open('../results/trials/run_hyperopt_MLP_10'+'.json', 'w') as f:
@@ -74,6 +71,8 @@ with open('../results/trials/run_hyperopt_svm_10'+'.json', 'w') as f:
 #      json.dump(tests, f)
 # with open('../results/trials/run_hyperopt_randomForestClassifier_10'+'.json', 'w') as f:
 #      json.dump(tests, f)
+
+
 
 # Reading data back
 # with open('../results/trials2fixed'+timeStamp+'.yaml', 'r') as f:

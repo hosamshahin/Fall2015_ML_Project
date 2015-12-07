@@ -14,12 +14,17 @@ config = get_config()
 data_folder = config['data']['path']
 
 
-def get_data(params):
+def get_data(params, phase='train'):
 
-    X = np.load(config['data']['training_data'])
-    print("X shape: ", X.shape)
-    y = np.load(config['data']['training_labels'])
+    if phase == 'train':
+        X = np.load(config['data']['training_data'])
+        y = np.load(config['data']['training_labels'])
+    elif phase == 'test':
+        X = np.load(config['data']['testing_data'])
+        y = np.load(config['data']['testing_labels'])
+
     y = y.reshape(-1)
+    print("X shape: ", X.shape)
     print("y shape: ", y.shape)
 
     return X, y

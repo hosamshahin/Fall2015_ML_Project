@@ -1,5 +1,5 @@
 import logging, sys, yaml, json
-
+import numpy as np
 from train_predict import run
 
 def byteify(input):
@@ -21,7 +21,7 @@ logging.basicConfig(filename='../logs/run_model.log',
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 
 
-with open('../results/trials/run_hyperopt_svm_5.json') as data_file:
+with open('../results/trials/run_hyperopt_all_5.json') as data_file:
     trials = json.load(data_file)
 
 trials = byteify(trials)
@@ -30,6 +30,8 @@ bestResults = {}
 bestModels = {}
 for model in trials:
     model_type = model['model_params']['type']
+    if model_type == 'svm':
+        model_type = model_type + '_' + model['model_params']['params']['kernel']
     model_result = model['error']
     if model_type in bestResults:
         if model_result < bestResults[model_type]:
@@ -39,9 +41,13 @@ for model in trials:
         bestResults[model_type] = model_result
         bestModels[model_type] = model
 
+test_score = np.zeros(len(bestModels))
 # save model
 for key, value in bestModels.iteritems():
-    score = run(value, vis=False, save_vis=False, save_model=True, save_cm=True)
+    test_score = run(value, vis=False, save_vis=False, save_model=True, save_cm=True, phase='test')
+
+print(test_score)
+np.save('../results/testing_scores_10.npy', test_score)
 
 # args = {'model_params': {'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'degree': 4, 'gamma': 6.2505519252739763}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
 # score = run(args, vis=False, save_vis=False, save_model=True)
