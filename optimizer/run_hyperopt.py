@@ -16,6 +16,7 @@ logging.basicConfig(filename='../logs/run_hyperopt.log',
                     format='%(asctime)s - {%(filename)s:%(lineno)d} - %(message)s',
                     datefmt='%m/%d %I:%M',
                     level=logging.INFO)
+
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 logging.info("Start runner_auto")
 
@@ -54,25 +55,25 @@ for trial in trials.trials:
 
 
 #~~~~ Writing Yaml data
-# with open('../results/hyperOpt_svm'+'.yaml', 'w') as f:
+# with open('../results/trials/hyperopt_svm'+'.yaml', 'w') as f:
      # yaml.dump(tests, f)
 #~~~~ Writing json data
-# with open('../results/hyperopt_svm'+'.json', 'w') as f:
+# with open('../results/trials/hyperopt_svm'+'.json', 'w') as f:
 #      json.dump(tests, f)
-# with open('../results/hyperopt_DT_best_10'+'.json', 'w') as f:
+# with open('../results/trials/hyperopt_DT_best_10'+'.json', 'w') as f:
 #      json.dump(tests, f)
-# with open('../results/run_hyperopt_svm_5'+'.json', 'w') as f:
+# with open('../results/trials/run_hyperopt_svm_5'+'.json', 'w') as f:
 #      json.dump(tests, f)
-# with open('../results/run_hyperopt_svm_10'+'.json', 'w') as f:
-#      json.dump(tests, f)
-# with open('../results/run_hyperopt_MLP_5'+'.json', 'w') as f:
-#      json.dump(tests, f)
-# with open('../results/run_hyperopt_MLP_10'+'.json', 'w') as f:
-#      json.dump(tests, f)
-# with open('../results/run_hyperopt_randomForestClassifier_5'+'.json', 'w') as f:
-#      json.dump(tests, f)
-with open('../results/run_hyperopt_randomForestClassifier_10'+'.json', 'w') as f:
+with open('../results/trials/run_hyperopt_svm_10'+'.json', 'w') as f:
      json.dump(tests, f)
+# with open('../results/trials/run_hyperopt_MLP_5'+'.json', 'w') as f:
+#      json.dump(tests, f)
+# with open('../results/trials/run_hyperopt_MLP_10'+'.json', 'w') as f:
+#      json.dump(tests, f)
+# with open('../results/trials/run_hyperopt_randomForestClassifier_5'+'.json', 'w') as f:
+#      json.dump(tests, f)
+# with open('../results/trials/run_hyperopt_randomForestClassifier_10'+'.json', 'w') as f:
+#      json.dump(tests, f)
 
 # Reading data back
 # with open('../results/trials2fixed'+timeStamp+'.yaml', 'r') as f:

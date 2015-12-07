@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.5)  5 DEC 2015 15:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.5)  5 DEC 2015 19:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -395,156 +395,186 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 98.
+(Font)              <9> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 98.
+(Font)              <6> on input line 96.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 98.
+(Font)              <5> on input line 96.
 
-Overfull \hbox (2.60568pt too wide) in paragraph at lines 111--111
+Overfull \hbox (2.60568pt too wide) in paragraph at lines 107--107
 []\OT1/ptm/m/sc/9 kernel| 
  []
 
 
-Overfull \hbox (2.60568pt too wide) in paragraph at lines 113--113
+Overfull \hbox (2.60568pt too wide) in paragraph at lines 109--109
  []\OT1/ptm/m/sc/9 degree| 
  []
 
 
-Overfull \hbox (2.17392pt too wide) in paragraph at lines 114--114
+Overfull \hbox (2.17392pt too wide) in paragraph at lines 110--110
  []\OT1/ptm/m/sc/9 gamma| 
  []
 
 
-Overfull \hbox (7.89757pt too wide) in paragraph at lines 115--115
+Overfull \hbox (7.89757pt too wide) in paragraph at lines 111--111
  []\OT1/ptm/m/sc/9 splitter| 
  []
 
 
-Overfull \hbox (4.87697pt too wide) in paragraph at lines 117--117
+Overfull \hbox (4.87697pt too wide) in paragraph at lines 113--113
  []\OT1/ptm/m/sc/9 alpha| 
  []
 
 
-Overfull \hbox (6.03725pt too wide) in paragraph at lines 120--120
+Overfull \hbox (6.03725pt too wide) in paragraph at lines 116--116
  []\OT1/ptm/m/sc/9 estimators| 
  []
 
 
-Overfull \hbox (4.6619pt too wide) in paragraph at lines 98--146
+Overfull \hbox (4.6619pt too wide) in paragraph at lines 96--140
  [] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 151.
+(Font)              <7> on input line 150.
+
+Underfull \hbox (badness 5119) in paragraph at lines 160--161
+\OT1/ptm/m/n/10 pro-vides al-go-rithms and par-al-leliza-tion in-fras-truc-ture
+
+ []
+
+
+Underfull \hbox (badness 5446) in paragraph at lines 160--161
+\OT1/ptm/m/n/10 for per-form-ing hy-per-pa-ram-e-ters op-ti-miza-tion (model
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
+Package epstopdf Info: Source file: <svm_5_C_gamma_heat.eps>
+(epstopdf)                    date: 2015-12-05 19:12:18
+(epstopdf)                    size: 130780 bytes
+(epstopdf)             Output file: <svm_5_C_gamma_heat-eps-converted-to.pdf>
+(epstopdf)                    date: 2015-12-05 19:30:44
+(epstopdf)                    size: 24597 bytes
+(epstopdf)             Command: <repstopdf --outfile=svm_5_C_gamma_heat-eps-con
+verted-to.pdf svm_5_C_gamma_heat.eps>
+(epstopdf)             \includegraphics on input line 183.
+Package epstopdf Info: Output file is already uptodate.
+
+<svm_5_C_gamma_heat-eps-converted-to.pdf, id=22, 436.63126pt x 298.11375pt>
+File: svm_5_C_gamma_heat-eps-converted-to.pdf Graphic file (type pdf)
+
+<use svm_5_C_gamma_heat-eps-converted-to.pdf>
+Package pdftex.def Info: svm_5_C_gamma_heat-eps-converted-to.pdf used on input 
+line 183.
+(pdftex.def)             Requested size: 234.8775pt x 160.36493pt.
 Package epstopdf Info: Source file: <DT_max_depth_split.eps>
-(epstopdf)                    date: 2015-12-05 17:44:34
-(epstopdf)                    size: 40591 bytes
+(epstopdf)                    date: 2015-12-05 23:01:04
+(epstopdf)                    size: 41415 bytes
 (epstopdf)             Output file: <DT_max_depth_split-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-05 15:20:20
-(epstopdf)                    size: 36279 bytes
+(epstopdf)                    date: 2015-12-05 19:34:51
+(epstopdf)                    size: 36238 bytes
 (epstopdf)             Command: <repstopdf --outfile=DT_max_depth_split-eps-con
 verted-to.pdf DT_max_depth_split.eps>
-(epstopdf)             \includegraphics on input line 255.
+(epstopdf)             \includegraphics on input line 205.
 runsystem(repstopdf --outfile=DT_max_depth_split-eps-converted-to.pdf DT_max_de
 pth_split.eps)...executed safely (allowed).
 
 Package epstopdf Info: Result file: <DT_max_depth_split-eps-converted-to.pdf>
-(epstopdf)                    date: 2015-12-05 15:21:15
-(epstopdf)                    size: 36279 bytes.
+(epstopdf)                    date: 2015-12-05 19:34:51
+(epstopdf)                    size: 36238 bytes.
 
-<DT_max_depth_split-eps-converted-to.pdf, id=19, 442.65375pt x 257.96375pt>
+<DT_max_depth_split-eps-converted-to.pdf, id=23, 394.47375pt x 247.92625pt>
 File: DT_max_depth_split-eps-converted-to.pdf Graphic file (type pdf)
 
 <use DT_max_depth_split-eps-converted-to.pdf>
 Package pdftex.def Info: DT_max_depth_split-eps-converted-to.pdf used on input 
-line 255.
-(pdftex.def)             Requested size: 234.8775pt x 136.8815pt.
+line 205.
+(pdftex.def)             Requested size: 234.8775pt x 147.6182pt.
 Package epstopdf Info: Source file: <randomForest_estimators.eps>
 (epstopdf)                    date: 2015-12-05 17:44:34
 (epstopdf)                    size: 61285 bytes
 (epstopdf)             Output file: <randomForest_estimators-eps-converted-to.p
 df>
-(epstopdf)                    date: 2015-12-05 15:20:20
+(epstopdf)                    date: 2015-12-05 19:00:26
 (epstopdf)                    size: 22287 bytes
 (epstopdf)             Command: <repstopdf --outfile=randomForest_estimators-ep
 s-converted-to.pdf randomForest_estimators.eps>
-(epstopdf)             \includegraphics on input line 266.
-runsystem(repstopdf --outfile=randomForest_estimators-eps-converted-to.pdf rand
-omForest_estimators.eps)...executed safely (allowed).
+(epstopdf)             \includegraphics on input line 216.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <randomForest_estimators-eps-converted-to.p
-df>
-(epstopdf)                    date: 2015-12-05 15:21:15
-(epstopdf)                    size: 22287 bytes.
-
-<randomForest_estimators-eps-converted-to.pdf, id=20, 448.67625pt x 300.12125pt
+<randomForest_estimators-eps-converted-to.pdf, id=24, 448.67625pt x 300.12125pt
 >
 File: randomForest_estimators-eps-converted-to.pdf Graphic file (type pdf)
  <use randomForest_estimators-eps-converted-to.pdf>
 Package pdftex.def Info: randomForest_estimators-eps-converted-to.pdf used on i
-nput line 266.
+nput line 216.
 (pdftex.def)             Requested size: 234.8775pt x 157.10806pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
 Package epstopdf Info: Source file: <allModels_comparison.eps>
 (epstopdf)                    date: 2015-12-05 17:44:34
 (epstopdf)                    size: 39465 bytes
 (epstopdf)             Output file: <allModels_comparison-eps-converted-to.pdf>
 
-(epstopdf)                    date: 2015-12-05 15:20:20
+(epstopdf)                    date: 2015-12-05 19:00:26
 (epstopdf)                    size: 25305 bytes
 (epstopdf)             Command: <repstopdf --outfile=allModels_comparison-eps-c
 onverted-to.pdf allModels_comparison.eps>
-(epstopdf)             \includegraphics on input line 283.
-runsystem(repstopdf --outfile=allModels_comparison-eps-converted-to.pdf allMode
-ls_comparison.eps)...executed safely (allowed).
+(epstopdf)             \includegraphics on input line 232.
+Package epstopdf Info: Output file is already uptodate.
 
-Package epstopdf Info: Result file: <allModels_comparison-eps-converted-to.pdf>
-
-(epstopdf)                    date: 2015-12-05 15:21:15
-(epstopdf)                    size: 25305 bytes.
-
-<allModels_comparison-eps-converted-to.pdf, id=23, 438.63875pt x 282.05376pt>
+<allModels_comparison-eps-converted-to.pdf, id=54, 438.63875pt x 282.05376pt>
 File: allModels_comparison-eps-converted-to.pdf Graphic file (type pdf)
 
 <use allModels_comparison-eps-converted-to.pdf>
 Package pdftex.def Info: allModels_comparison-eps-converted-to.pdf used on inpu
-t line 283.
+t line 232.
 (pdftex.def)             Requested size: 234.8775pt x 151.03282pt.
+ (./main.bbl)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 247.
+ [3 <./svm_5_C_gamma_heat-eps-converted-to.pdf> <./DT_max_depth_split-eps-conve
+rted-to.pdf> <./randomForest_estimators-eps-converted-to.pdf>] [4
 
-No file main.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 298.
-[2] [3 <./DT_max_depth_split-eps-converted-to.pdf> <./randomForest_estimators-e
-ps-converted-to.pdf> <./allModels_comparison-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 298.
+ <./allModels_comparison-eps-converted-to.pdf>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 247.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 298.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 298.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 247.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 247.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 298.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 247.
  ) 
 Here is how much of TeX's memory you used:
- 6310 strings out of 493304
- 91443 string characters out of 6139872
- 194839 words of memory out of 5000000
- 9661 multiletter control sequences out of 15000+600000
- 22925 words of font info for 42 fonts, out of 8000000 for 9000
+ 6328 strings out of 493304
+ 91829 string characters out of 6139872
+ 190010 words of memory out of 5000000
+ 9671 multiletter control sequences out of 15000+600000
+ 24609 words of font info for 44 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 29i,14n,45p,1093b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,14n,45p,1093b,368s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/ty
-pe1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
-tmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr
-/share/texlive/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 161006 bytes).
+fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmsy7.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-
+dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (4 pages, 207433 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 81 compressed objects within 1 object stream
- 26 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

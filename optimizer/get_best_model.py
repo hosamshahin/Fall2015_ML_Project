@@ -21,7 +21,7 @@ logging.basicConfig(filename='../logs/run_model.log',
 logging.getLogger().addHandler(logging.StreamHandler(sys.stdout))
 
 
-with open('../results/run_hyperOpt.json') as data_file:
+with open('../results/trials/run_hyperopt_svm_5.json') as data_file:
     trials = json.load(data_file)
 
 trials = byteify(trials)
@@ -39,8 +39,9 @@ for model in trials:
         bestResults[model_type] = model_result
         bestModels[model_type] = model
 
+# save model
 for key, value in bestModels.iteritems():
-    score = run(value, vis=False, save_vis=False, save_model=True)
+    score = run(value, vis=False, save_vis=False, save_model=True, save_cm=True)
 
 # args = {'model_params': {'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'degree': 4, 'gamma': 6.2505519252739763}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
 # score = run(args, vis=False, save_vis=False, save_model=True)

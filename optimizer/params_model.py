@@ -8,19 +8,19 @@ from sklearn.metrics.pairwise import additive_chi2_kernel
 # http://www.svms.org/parameters/
 # http://www.csie.ntu.edu.tw/~cjlin/papers/guide/guide.pdf
 C = hp.choice('svm_C',  np.logspace(-4, 6, 50))
-# gamma =  hp.choice('svm_gamma',  np.logspace(-9, 4, 50))
-gamma =  10
-# degree =  hp.choice('poly_degree', range(3,4))
-degree =  3
+gamma =  hp.choice('svm_gamma',  np.logspace(-9, 4, 50))
+degree =  hp.choice('poly_degree', range(3,4))
+
+# gamma =  10
+# degree =  3
 
 svm = {
         'type': 'svm',
         'params': hp.pchoice('svm_model_choice',
-                            [ (0.25, {'C': C, 'kernel': 'linear', 'gamma':gamma, 'degree':1 }),
-                              (0.25, {'C': C, 'kernel': 'rbf', 'gamma':gamma, 'degree':1}),
-                              (0.5, {'C': C, 'kernel': 'poly', 'gamma':gamma, 'degree':degree})]
-                              # (0.4, {'C': C, 'kernel': 'additive_chi2_kernel', 'gamma':gamma, 'degree':degree})]
-                             ),
+                            [ (0.2, {'C': C, 'kernel': 'linear', 'gamma':gamma, 'degree':1 }),
+                              (0.2, {'C': C, 'kernel': 'rbf', 'gamma':gamma, 'degree':1}),
+                              (0.6, {'C': C, 'kernel': 'poly', 'gamma':gamma, 'degree':degree})]
+                            ),
     }
 
 
@@ -67,9 +67,9 @@ MLPClassifier = {
 #---------------------- choose models ---------------
 
 # m=[svm, decisionTree, randomForestClassifier, MLPClassifier]
-# m=[svm]
+m=[svm]
 # m=[decisionTree]
-m=[randomForestClassifier]
+# m=[randomForestClassifier]
 # m=[MLPClassifier]
 
 choices = hp.choice('model', m)
