@@ -47,7 +47,7 @@ for key, value in bestModels.iteritems():
     test_score = run(value, vis=False, save_vis=False, save_model=True, save_cm=True, phase='test')
 
 print(test_score)
-np.save('../results/testing_scores_10.npy', test_score)
+np.save('../results/testing_scores_5.npy', test_score)
 
 # args = {'model_params': {'params': {'kernel': 'poly', 'C': 0.020235896477251575, 'degree': 4, 'gamma': 6.2505519252739763}, 'type': 'svm'}, 'data_params': None, 'pre_params': {'type': 'normalize'}}
 # score = run(args, vis=False, save_vis=False, save_model=True)
