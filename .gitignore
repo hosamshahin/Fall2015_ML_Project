@@ -21,3 +21,4 @@ tasks.todo
 /results/ALL_results_analysis.ipynb
 GestureImages/
 GestureMasks/
+TrainData/
